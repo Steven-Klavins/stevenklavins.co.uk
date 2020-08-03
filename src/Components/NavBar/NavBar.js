@@ -1,12 +1,15 @@
 import React from "react";
 import "../NavBar/NavBar.css";
 import logo from "../../images/main-logo.png";
+import ToggleButton from "../SideDraw/ToggleButton";
 
 function NavBar() {
   return (
     <header className="navBar">
       <nav className="navigation">
-        <div></div>
+        <div>
+          <ToggleButton />
+        </div>
         <div className="logo">
           <a href="/">
             <img className="logo" src={logo}></img>
