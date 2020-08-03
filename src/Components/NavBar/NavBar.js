@@ -1,7 +1,7 @@
 import React from "react";
 import "../NavBar/NavBar.css";
 import logo from "../../images/main-logo.png";
-import ToggleButton from "../SideDraw/ToggleButton";
+import ToggleButton from "../SideDrawer/ToggleButton";
 
 function NavBar() {
   return (
