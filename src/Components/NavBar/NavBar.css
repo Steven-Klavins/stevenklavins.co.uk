@@ -1,0 +1,28 @@
+.navBar {
+  width: 100%;
+  position: fixed;
+  background-color: aqua;
+  height: 124px;
+  top: 0px;
+}
+
+.navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.logo {
+  height: 6rem;
+}
+
+.navItems {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding-left: 30px;
+}
