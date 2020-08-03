@@ -3,12 +3,12 @@ import "../NavBar/NavBar.css";
 import logo from "../../images/main-logo.png";
 import ToggleButton from "../SideDrawer/ToggleButton";
 
-function NavBar() {
+const NavBar = (props) => {
   return (
     <header className="navBar">
       <nav className="navigation">
         <div>
-          <ToggleButton />
+          <ToggleButton click={props.drawClickHandler} />
         </div>
         <div className="logo">
           <a href="/">
@@ -47,6 +47,6 @@ function NavBar() {
       </nav>
     </header>
   );
-}
+};
 
 export default NavBar;
