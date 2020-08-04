@@ -27,16 +27,19 @@ const SlideDrawer = (props) => {
           <a href="/"> Photography</a>
         </li>
         <li>
-          <a href="/"> 3D modelling/printing</a>
+          <a href="/">
+            {" "}
+            3D modelling/<br></br> printing
+          </a>
         </li>
         <li>
           <a href="/"> Art</a>
         </li>
         <li>
-          <a href="/"> Youtube</a>
+          <a href="/"> About</a>
         </li>
         <li>
-          <a href="/"> About</a>
+          <a href="/"> Contact</a>
         </li>
       </ul>
     </nav>
