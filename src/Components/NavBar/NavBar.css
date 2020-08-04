@@ -6,12 +6,16 @@
 .navBar {
   width: 100%;
   position: fixed;
-  background-color: aqua;
+  background-color: none;
   height: 124px;
   top: 0px;
+  outline: solid;
+  outline-color: #66fcf1;
+  outline-width: 1.5px;
 }
 
 .navigation {
+  width: 100%;
   display: flex;
   height: 100%;
   align-items: center;
@@ -19,18 +23,27 @@
 
 .logo {
   height: 6rem;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .navItems {
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-around;
+}
+
+.navSpacer {
+  padding-right: 30px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 li {
-  padding-left: 30px;
+  margin-right: 12px;
   font-size: 1rem;
   font-family: main-font;
   text-decoration: none;
@@ -39,18 +52,40 @@ li {
   overflow: hidden;
 }
 
+.titleSK {
+  top: 30px;
+  align-self: center;
+
+  font-family: main-font;
+  color: aliceblue;
+}
+
 a {
   color: aliceblue;
   text-decoration: none;
 }
 
-@media (max-width: 786px) {
+a:hover {
+  color: #66fcf1;
+}
+
+.bgimage {
+  opacity: 0.1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 428px;
+  z-index: -1;
+}
+
+@media (max-width: 1146px) {
   .navItems {
     display: none;
   }
 }
 
-@media (min-width: 786px) {
+@media (min-width: 1146px) {
   .toolBarButton {
     display: none;
   }
