@@ -7,7 +7,7 @@ const NavBar = (props) => {
   return (
     <header className="navBar">
       <nav className="navigation">
-        <div>
+        <div className="toolBarButton">
           <ToggleButton click={props.drawClickHandler} />
         </div>
         <div className="logo">
