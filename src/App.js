@@ -1,39 +1,36 @@
 import React, { Component } from "react";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
-import BackDrop from "../src/Components/SideDrawer/BackDrop";
-import SideDrawer from "../src/Components/SideDrawer/SideDrawer";
+import BackDrop from "../src/Components/SlideDrawer/BackDrop";
+import SlideDrawer from "../src/Components/SlideDrawer/SlideDrawer";
 import { render } from "@testing-library/react";
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false,
+    SlideDrawerOpen: false,
   };
 
   drawClickHandler = () => {
     this.setState((prevState) => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+      return { SlideDrawerOpen: !prevState.SlideDrawerOpen };
     });
   };
 
   backDropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
+    this.setState({ SlideDrawerOpen: false });
   };
 
   render() {
-    let sideDrawer;
     let backDrop;
 
-    if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
+    if (this.state.SlideDrawerOpen) {
       backDrop = <BackDrop click={this.backDropClickHandler} />;
     }
     return (
       <div className="App">
         <NavBar drawClickHandler={this.drawClickHandler} />
-        {sideDrawer}
+        <SlideDrawer show={this.state.SlideDrawerOpen} />
         {backDrop}
-
         <p>Page content</p>
       </div>
     );
