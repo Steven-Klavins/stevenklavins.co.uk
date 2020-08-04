@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import BackDrop from "../src/Components/SlideDrawer/BackDrop";
 import SlideDrawer from "../src/Components/SlideDrawer/SlideDrawer";
+import SocialLinks from "./Components/SocialLinks/SocialLinks";
 
 class App extends Component {
   state = {
@@ -28,6 +29,9 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar drawClickHandler={this.drawClickHandler} />
+        <div className="linkPosition">
+          <SocialLinks />
+        </div>
         <SlideDrawer show={this.state.SlideDrawerOpen} />
         {backDrop}
       </div>
