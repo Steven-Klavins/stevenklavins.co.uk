@@ -1,0 +1,38 @@
+.slideDrawer {
+  height: 100%;
+  box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  width: 70%;
+  max-width: 300px;
+  z-index: 2;
+  transform: translateX(-110%);
+  transition: transform 0.3s ease-out;
+}
+
+.slideDrawer.open {
+  transform: translateX(0);
+}
+
+.slideList {
+  height: 100%;
+  margin-left: 0px;
+  z-index: 2;
+  margin-left: 0px;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.slideDrawer li {
+  margin-bottom: 2rem;
+  margin-left: 0px;
+  z-index: 2;
+}
+
+@media (min-width: 769px) {
+  .slideDrawer {
+    display: none;
+  }
+}
