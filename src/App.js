@@ -3,7 +3,6 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import BackDrop from "../src/Components/SlideDrawer/BackDrop";
 import SlideDrawer from "../src/Components/SlideDrawer/SlideDrawer";
-import { render } from "@testing-library/react";
 
 class App extends Component {
   state = {
@@ -31,7 +30,6 @@ class App extends Component {
         <NavBar drawClickHandler={this.drawClickHandler} />
         <SlideDrawer show={this.state.SlideDrawerOpen} />
         {backDrop}
-        <p>Page content</p>
       </div>
     );
   }
