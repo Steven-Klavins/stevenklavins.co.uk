@@ -1,7 +1,7 @@
 import React from "react";
 import "../NavBar/NavBar.css";
 import logo from "../../images/main-logo.png";
-import ToggleButton from "../SideDrawer/ToggleButton";
+import ToggleButton from "../SlideDrawer/ToggleButton";
 
 const NavBar = (props) => {
   return (
@@ -12,11 +12,14 @@ const NavBar = (props) => {
         </div>
         <div className="logo">
           <a href="/">
-            <img className="logo" src={logo}></img>
+            <img className="logo" src={logo} alt="logo"></img>
           </a>
         </div>
+        <div className="titleSK">
+          <h1 className="toolBarButton">Steven Klavins</h1>
+        </div>
 
-        <div>
+        <div className="navSpacer">
           <ul className="navItems">
             <li>
               <a href="/"> Home</a>
@@ -37,14 +40,15 @@ const NavBar = (props) => {
               <a href="/"> Art</a>
             </li>
             <li>
-              <a href="/"> Youtube</a>
+              <a href="/"> About</a>
             </li>
             <li>
-              <a href="/"> About</a>
+              <a href="/"> Contact</a>
             </li>
           </ul>
         </div>
       </nav>
+      <img className="bgimage" src={logo}></img>
     </header>
   );
 };
