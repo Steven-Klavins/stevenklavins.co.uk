@@ -5,3 +5,8 @@
 body {
   background-color: #1f2833;
 }
+
+.linkPosition {
+  text-align: center;
+  padding-left: 16px;
+}
