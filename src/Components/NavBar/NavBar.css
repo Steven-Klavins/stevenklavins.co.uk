@@ -35,9 +35,23 @@ li {
   font-family: main-font;
   text-decoration: none;
   color: aliceblue;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 a {
   color: aliceblue;
   text-decoration: none;
+}
+
+@media (max-width: 786px) {
+  .navItems {
+    display: none;
+  }
+}
+
+@media (min-width: 786px) {
+  .toolBarButton {
+    display: none;
+  }
 }
