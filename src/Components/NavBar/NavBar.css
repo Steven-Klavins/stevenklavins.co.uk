@@ -3,6 +3,11 @@
   src: url(../../fonts/AstroSpace.ttf);
 }
 
+@font-face {
+  font-family: reading-font;
+  src: url(../../fonts/DroidSans.ttf);
+}
+
 .navBar {
   width: 100%;
   position: fixed;
@@ -19,6 +24,9 @@
   display: flex;
   height: 100%;
   align-items: center;
+  background-color: #1f2833;
+  z-index: 30;
+  position: relative;
 }
 
 .logo {
@@ -67,16 +75,6 @@ a {
 
 a:hover {
   color: #66fcf1;
-}
-
-.bgimage {
-  opacity: 0.1;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  min-width: 428px;
-  z-index: -1;
 }
 
 @media (max-width: 1146px) {
