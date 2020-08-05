@@ -48,7 +48,6 @@ const NavBar = (props) => {
           </ul>
         </div>
       </nav>
-      <img className="bgimage" src={logo}></img>
     </header>
   );
 };
