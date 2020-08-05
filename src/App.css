@@ -6,7 +6,8 @@ body {
   background-color: #1f2833;
 }
 
-.linkPosition {
-  text-align: center;
-  padding-left: 16px;
+h1 {
+  font-family: main-font;
+  margin-left: 30px;
+  color: aliceblue;
 }
