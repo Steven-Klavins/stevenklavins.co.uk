@@ -9,6 +9,7 @@
   font-size: 1rem;
   z-index: 2;
   width: 50%;
+  margin-bottom: 30px;
 }
 
 .midtextlink {
@@ -25,4 +26,7 @@
 
 .openTitle {
   text-align: center;
+  margin: 0;
+
+  padding: 30px;
 }
