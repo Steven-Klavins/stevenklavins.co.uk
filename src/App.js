@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import BackDrop from "../src/Components/SlideDrawer/BackDrop";
@@ -7,6 +7,7 @@ import SlideDrawer from "../src/Components/SlideDrawer/SlideDrawer";
 import SocialLinks from "./Components/SocialLinks/SocialLinks";
 import Home from "./Components/Pages/Home/Home";
 import Background from "../src/Components/Background/Background";
+import Coding from "../src/Components/Pages/Coding/Coding";
 
 class App extends Component {
   state = {
@@ -31,16 +32,16 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <NavBar drawClickHandler={this.drawClickHandler} />
-        <div className="linkPosition">
-          <SocialLinks />
-          <Background />
-        </div>
-        <SlideDrawer show={this.state.SlideDrawerOpen} />
+        <div className="linkPosition"></div>
         {backDrop}
         <Router>
+          <SocialLinks />
+          <NavBar drawClickHandler={this.drawClickHandler} />
+          <Background />
+          <SlideDrawer show={this.state.SlideDrawerOpen} />
           <Switch>
-            <Route path="/" component={Home} />
+            <Route path="/" component={Home} exact={true} />
+            <Route path="/development" component={Coding} exact={true} />
           </Switch>
         </Router>
       </div>
