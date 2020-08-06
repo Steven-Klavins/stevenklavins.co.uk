@@ -4,16 +4,16 @@
 }
 
 .linkRow {
-  position: absolute;
+  position: fixed;
   bottom: 24px;
   font-family: main-font;
   font-size: 12px;
   display: flex;
-  padding-left: 40px;
+  padding-left: 24px;
 }
 
 .section {
-  padding-right: 100px;
+  padding-right: 80px;
 }
 .fontLink {
   position: absolute;
