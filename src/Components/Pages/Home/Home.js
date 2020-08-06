@@ -11,10 +11,18 @@ const Home = (props) => {
       <div className="welcomeTextBox">
         <h2>Welcome!</h2>
         <p>
-          Thank you so much for visiting my website! I'm a full-stack developer,
-          Makers academy graduate, and tech addict. I'm London based however I'm
-          an experienced remote worker and have the flexibility to
-          relocate/travel if need be. <br></br>
+          Thank you so much for visiting my website! I'm a full-stack developer,{" "}
+          <a
+            className="midtextlink"
+            href="https://makers.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Makers academy
+          </a>{" "}
+          graduate, and tech addict. I'm London based however I'm an experienced
+          remote worker and have the flexibility to relocate/travel if need be.{" "}
+          <br></br>
           <br></br>I hold a BA in Digital Arts, perform in a band, and have a
           love of all things creative, you can find my showreel{" "}
           <a
