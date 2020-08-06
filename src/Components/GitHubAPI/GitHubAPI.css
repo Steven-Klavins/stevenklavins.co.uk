@@ -1,0 +1,22 @@
+.githubRepoStyling {
+  color: #c5c6c7;
+  padding: 18px;
+}
+
+.githubRepolistFloat {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardSpacer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cardWidth {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
