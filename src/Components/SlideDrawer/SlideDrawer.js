@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../SlideDrawer/SlideDrawer.css";
 
 const SlideDrawer = (props) => {
@@ -12,13 +13,13 @@ const SlideDrawer = (props) => {
     <nav className={drawerClasses}>
       <ul className=" slideList">
         <li>
-          <a href="/"> Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">
+          <Link to="/development">
             {" "}
             Software/Web <br></br> Development
-          </a>
+          </Link>
         </li>
         <li>
           <a href="/"> Music</a>
