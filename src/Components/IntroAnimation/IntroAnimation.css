@@ -1,0 +1,72 @@
+.animationHolder {
+  min-height: 60px;
+  margin: 0 auto;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bounce {
+  width: 24rem;
+  height: 12rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+.camera {
+  display: block;
+  width: 24rem;
+  height: 12rem;
+  background-image: url(../../images/camera-logo.png);
+  border-radius: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.code {
+  display: block;
+  width: 24rem;
+  height: 12rem;
+  background-image: url(../../images/code-logo.png);
+  border-radius: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.music {
+  display: block;
+  width: 24rem;
+  height: 12rem;
+  background-image: url(../../images/music-logo.png);
+  border-radius: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.art {
+  display: block;
+  width: 24rem;
+  height: 12rem;
+  background-image: url(../../images/tablet-logo.png);
+  border-radius: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.printer {
+  display: block;
+  width: 24rem;
+  height: 12rem;
+  background-image: url(../../images/3d-logo.png);
+  border-radius: 0.75rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.animatePosition {
+  top: 660px;
+  width: 50%;
+}
