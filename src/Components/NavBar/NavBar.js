@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../NavBar/NavBar.css";
 import logo from "../../images/main-logo.png";
 import ToggleButton from "../SlideDrawer/ToggleButton";
@@ -22,10 +23,10 @@ const NavBar = (props) => {
         <div className="navSpacer">
           <ul className="navItems">
             <li>
-              <a href="/"> Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/"> Software/Web Development</a>
+              <Link to="/development">Software/Web Development</Link>
             </li>
             <li>
               <a href="/"> Music</a>
