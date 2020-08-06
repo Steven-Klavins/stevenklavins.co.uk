@@ -1,0 +1,30 @@
+.repoTitle {
+  color: #66fcf1;
+  font-size: 24px;
+  padding-left: 12px;
+  float: left;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-family: main-font;
+}
+
+.gitHubIcon {
+  height: 46px;
+  margin-top: 12px;
+}
+
+.description {
+  color: aliceblue;
+  margin-top: 80px;
+  font-family: reading-font;
+  text-align: center;
+}
+
+.cardBox {
+  width: 400px;
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 5%;
+  border-radius: 18px;
+  padding: 12px;
+}
