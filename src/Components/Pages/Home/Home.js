@@ -1,11 +1,13 @@
 import React from "react";
 
 import "../../Pages/Home/Home.css";
+import IntroAnimation from "../../IntroAnimation/IntroAnimation";
 
 const Home = (props) => {
   return (
     <div className="topMargin">
       <h1 class="openTitle">Bridging the gap between tech and art</h1>
+
       <div className="welcomeTextBox">
         <h2>Welcome!</h2>
         <p>
@@ -28,6 +30,9 @@ const Home = (props) => {
           <br></br>To be frank, its what gets me out of bed in the morning. Want
           to chat? Feel free to contact me on any of the listed platforms!
         </p>
+      </div>
+      <div>
+        <IntroAnimation />
       </div>
     </div>
   );
