@@ -22,7 +22,7 @@ const SlideDrawer = (props) => {
           </Link>
         </li>
         <li>
-          <a href="/"> Music</a>
+          <Link to="/music">Music</Link>
         </li>
         <li>
           <a href="/"> Photography</a>
