@@ -4,7 +4,6 @@
   padding-left: 12px;
   float: left;
   font-size: 18px;
-  padding-bottom: 20px;
   font-family: main-font;
 }
 
@@ -15,9 +14,13 @@
 
 .description {
   color: aliceblue;
-  margin-top: 80px;
+  margin-top: 30px;
   font-family: reading-font;
-  text-align: center;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  margin-left: 14px;
+  position: relative;
 }
 
 .cardBox {
@@ -27,4 +30,17 @@
   margin: 5%;
   border-radius: 18px;
   padding: 12px;
+  position: relative;
+}
+
+.gitImage {
+  width: 160px;
+  height: 80px;
+  margin-left: 90px;
+  border: solid 1px #66fcf1;
+}
+
+.linkimg {
+  position: absolute;
+  bottom: 12px;
 }
