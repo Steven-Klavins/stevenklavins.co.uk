@@ -17,6 +17,7 @@
   outline: solid;
   outline-color: #66fcf1;
   outline-width: 1.5px;
+  z-index: 999;
 }
 
 .navigation {
@@ -25,7 +26,7 @@
   height: 100%;
   align-items: center;
   background-color: #1f2833;
-  z-index: 30;
+
   position: relative;
 }
 
