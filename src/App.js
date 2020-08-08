@@ -8,6 +8,7 @@ import SocialLinks from "./Components/SocialLinks/SocialLinks";
 import Home from "./Components/Pages/Home/Home";
 import Background from "../src/Components/Background/Background";
 import Coding from "../src/Components/Pages/Coding/Coding";
+import Music from "../src/Components/Pages/Music/Music";
 
 class App extends Component {
   state = {
@@ -42,6 +43,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Home} exact={true} />
             <Route path="/development" component={Coding} exact={true} />
+            <Route path="/music" component={Music} exact={true} />
           </Switch>
         </Router>
       </div>
