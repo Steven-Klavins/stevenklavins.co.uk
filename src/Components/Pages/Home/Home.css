@@ -13,7 +13,7 @@
 }
 
 .midtextlink {
-  color: aqua;
+  color: #00ffff;
 }
 
 .midtextlink:hover {
@@ -29,4 +29,16 @@
   margin: 0;
 
   padding: 30px;
+}
+.subTitle {
+  font-family: main-font;
+  color: aqua;
+}
+
+.videoOuter {
+  margin: 0 auto;
+}
+.video {
+  display: block;
+  text-align: center;
 }
