@@ -3,6 +3,11 @@ import "../../Components/ProjectCard/ProjectCard.css";
 import gitHubIcon from "../../images/github-logo.png";
 
 export class Repo extends React.Component {
+  addDefaultSrc(ev) {
+    ev.target.src =
+      "https://raw.githubusercontent.com/Steven-Klavins/fizzbuzz/master/Screenshot.png";
+  }
+
   render() {
     return (
       <div className="cardBox">
@@ -19,7 +24,7 @@ export class Repo extends React.Component {
           Language: {this.props.language}
         </div>
 
-        <div>
+        <div className="linkimg">
           <a
             className="description"
             href={this.props.link}
@@ -34,6 +39,16 @@ export class Repo extends React.Component {
             ></img>
             Link
           </a>
+
+          <img
+            className="gitImage"
+            src={
+              "https://raw.githubusercontent.com/Steven-Klavins/" +
+              this.props.name +
+              "/master/Screenshot.png"
+            }
+            onError={this.addDefaultSrc}
+          ></img>
         </div>
       </div>
     );
