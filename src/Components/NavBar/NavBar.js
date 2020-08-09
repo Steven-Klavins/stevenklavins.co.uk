@@ -32,19 +32,19 @@ const NavBar = (props) => {
               <Link to="/music">Music</Link>
             </li>
             <li>
-              <a href="/"> Photography</a>
+              <Link to="/photography">Photography</Link>
             </li>
             <li>
-              <a href="/"> 3D modelling/printing</a>
+              <Link to="/3D">3D modelling/printing</Link>
             </li>
             <li>
-              <a href="/"> Art</a>
+              <Link to="/art">Art</Link>
             </li>
             <li>
-              <a href="/"> About</a>
+              <Link to="/About">About</Link>
             </li>
             <li>
-              <a href="/"> Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
