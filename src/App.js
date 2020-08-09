@@ -9,7 +9,11 @@ import Home from "./Components/Pages/Home/Home";
 import Background from "../src/Components/Background/Background";
 import Coding from "../src/Components/Pages/Coding/Coding";
 import Music from "../src/Components/Pages/Music/Music";
-
+import Contact from "../src/Components/Pages/Contact/Contact";
+import About from "../src/Components/Pages/About/About";
+import Photography from "./Components/Pages/Photography/Photography";
+import Art from "./Components/Pages/Art/Art";
+import threeD from "./Components/Pages/3D/3D";
 class App extends Component {
   state = {
     SlideDrawerOpen: false,
@@ -44,6 +48,11 @@ class App extends Component {
             <Route path="/" component={Home} exact={true} />
             <Route path="/development" component={Coding} exact={true} />
             <Route path="/music" component={Music} exact={true} />
+            <Route path="/contact" component={Contact} exact={true} />
+            <Route path="/about" component={About} exact={true} />
+            <Route path="/photography" component={Photography} exact={true} />
+            <Route path="/art" component={Art} exact={true} />
+            <Route path="/3D" component={threeD} exact={true} />
           </Switch>
         </Router>
       </div>
