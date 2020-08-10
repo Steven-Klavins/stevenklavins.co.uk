@@ -1,5 +1,6 @@
 import React from "react";
 import "../../Pages/About/About.css";
+import AboutImg from "../../../images/about-photo.jpg";
 
 const About = () => {
   return (
@@ -12,14 +13,15 @@ const About = () => {
         tech, music, and art. In late 2019 I left the stability of my job in
         pursuit of doing something more meaningful with my life. Following my
         resignation, I taught myself OOP principles, attended Makers academy,
-        and immersed myself in learning. I'm a musician and play guitar in my
-        band Out Of Context, I love old school horror movies and animation. I'm
-        not a huge sports fan but I love swimming and was a voluntary swimming
-        teacher a few years ago. I suppose you could say I'm a quirky
-        individual, I embrace alternative culture. I love gothic fashion and
-        Prog Metal, but hey, the world would be a boring place if we were all
-        the same right?
+        and immersed myself in learning. <br></br> <br></br>I'm a musician and
+        play guitar in my band Out Of Context, I love old school horror movies
+        and animation. I'm not a huge sports fan but I love swimming and was a
+        voluntary swimming teacher a few years ago. I suppose you could say I'm
+        a quirky individual, I embrace alternative culture. I love gothic
+        fashion and Prog Metal, but hey, the world would be a boring place if we
+        were all the same right?
       </p>
+      <img className="aboutImg" src={AboutImg}></img>
     </div>
   );
 };
