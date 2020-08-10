@@ -2,10 +2,15 @@ import React from "react";
 import "../../Pages/Coding/Coding.css";
 import GitHubAPI from "../../GitHubAPI/GitHubAPI";
 import IconsList from "../../../images/icons-list.png";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Coding = (props) => {
   return (
-    <div>
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+    >
       <div className="upperMargin">
         <h1 className="codeTitle">Notable Projects</h1>
       </div>
@@ -34,7 +39,7 @@ const Coding = (props) => {
       <div className="iconOuter">
         <img className="iconList" src={IconsList} alt="Icons list" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
