@@ -2,10 +2,16 @@ import React from "react";
 import ReactPlayer from "react-player";
 import "../../Pages/Home/Home.css";
 import IntroAnimation from "../../IntroAnimation/IntroAnimation";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Home = (props) => {
   return (
-    <div className="topMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="topMargin"
+    >
       <h1 class="openTitle">Bridging the gap between tech and art</h1>
 
       <div className="welcomeTextBox">
@@ -42,7 +48,7 @@ const Home = (props) => {
           /> */}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
