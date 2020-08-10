@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import BackDrop from "../src/Components/SlideDrawer/BackDrop";
@@ -44,16 +45,18 @@ class App extends Component {
           <NavBar drawClickHandler={this.drawClickHandler} />
           <Background />
           <SlideDrawer show={this.state.SlideDrawerOpen} />
-          <Switch>
-            <Route path="/" component={Home} exact={true} />
-            <Route path="/development" component={Coding} exact={true} />
-            <Route path="/music" component={Music} exact={true} />
-            <Route path="/contact" component={Contact} exact={true} />
-            <Route path="/about" component={About} exact={true} />
-            <Route path="/photography" component={Photography} exact={true} />
-            <Route path="/art" component={Art} exact={true} />
-            <Route path="/3D" component={threeD} exact={true} />
-          </Switch>
+          <AnimatePresence exitBeforeEnter>
+            <Switch>
+              <Route path="/" component={Home} exact={true} />
+              <Route path="/development" component={Coding} exact={true} />
+              <Route path="/music" component={Music} exact={true} />
+              <Route path="/contact" component={Contact} exact={true} />
+              <Route path="/about" component={About} exact={true} />
+              <Route path="/photography" component={Photography} exact={true} />
+              <Route path="/art" component={Art} exact={true} />
+              <Route path="/3D" component={threeD} exact={true} />
+            </Switch>
+          </AnimatePresence>
         </Router>
       </div>
     );
