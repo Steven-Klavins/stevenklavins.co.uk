@@ -1,9 +1,15 @@
 import React from "react";
 import "../../Pages/Contact/Contact.css";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="contactMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="contactMargin"
+    >
       <h1 className="contactTitle">Contact</h1>
       <p className="contactBox">
         <span className="email">stevenklavins94@gmail.com</span> The best way to
@@ -12,7 +18,7 @@ const Contact = () => {
         listed to the left, click on the links provided and you will be directed
         to the relevant profiles.
       </p>
-    </div>
+    </motion.div>
   );
 };
 
