@@ -1,10 +1,16 @@
 import React from "react";
 import "../../Pages/About/About.css";
 import AboutImg from "../../../images/about-photo.jpg";
+import { AnimatePresence, motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="aboutMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="aboutMargin"
+    >
       <h1 className="aboutTitle">About</h1>
       <p className="aboutBox">
         Thank you so much for taking the time out of your day to find out a
@@ -22,7 +28,7 @@ const About = () => {
         were all the same right?
       </p>
       <img className="aboutImg" src={AboutImg}></img>
-    </div>
+    </motion.div>
   );
 };
 
