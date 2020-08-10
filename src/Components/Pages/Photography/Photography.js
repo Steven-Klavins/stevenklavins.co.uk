@@ -1,10 +1,16 @@
 import React from "react";
 import "../../Pages/Photography/Photography.css";
 import FlickrLightbox from "react-flickr-lightbox";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Photography = () => {
   return (
-    <div className="photographyMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="photographyMargin"
+    >
       <h1 className="photographyTitle">Photography</h1>
       <h2 className="photographySubTitle">Band Photography</h2>
       <div className="midAlbum">
@@ -18,7 +24,7 @@ const Photography = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
