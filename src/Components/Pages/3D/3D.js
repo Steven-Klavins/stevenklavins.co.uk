@@ -1,11 +1,18 @@
 import React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import "../../Pages/3D/3D.css";
 
 const threeD = () => {
   return (
-    <div className="threeDMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="photographyMargin"
+      className="threeDMargin"
+    >
       <h1 className="threeDTitle">3D Modelling/Printing</h1>
-    </div>
+    </motion.div>
   );
 };
 
