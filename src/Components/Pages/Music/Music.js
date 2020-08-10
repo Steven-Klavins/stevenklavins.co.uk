@@ -1,4 +1,5 @@
 import React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import "../../Pages/Music/Music.css";
 import OutOfContext from "../../../images/outofcontext.jpg";
 import OutOfContext2 from "../../../images/outofcontext02.jpg";
@@ -9,7 +10,12 @@ import PunchingJudy3 from "../../../images/punchingjudy03.jpg";
 
 const Music = (props) => {
   return (
-    <div className="topMargin">
+    <motion.div
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      className="topMargin"
+    >
       <h1 className="musicTitle">Music</h1>
       <h2 className=" musicTitle">Projects</h2>
 
@@ -64,7 +70,7 @@ const Music = (props) => {
           <img className="bandimg" src={PunchingJudy3} />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
