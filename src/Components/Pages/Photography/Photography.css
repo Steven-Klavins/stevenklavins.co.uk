@@ -4,8 +4,24 @@
 
 .photographyTitle {
   text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.photographySubTitle {
+  margin-top: 60px;
+  font-family: main-font;
+  color: aqua;
+  text-align: center;
+}
+
+.midAlbum {
+  position: relative;
 }
 
 .album {
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  min-width: 464px;
+  transform: translateX(-50%);
 }
