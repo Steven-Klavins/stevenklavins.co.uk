@@ -19,3 +19,11 @@
 .aboutTitle {
   text-align: center;
 }
+
+.aboutImg {
+  max-height: 420px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
