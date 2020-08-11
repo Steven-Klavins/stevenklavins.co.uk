@@ -12,30 +12,65 @@ const Coding = (props) => {
       initial={{ opacity: 0 }}
     >
       <div className="upperMargin">
-        <h1 className="codeTitle">Notable Projects</h1>
+        <h1 className="codeTitle">Software/Web Development</h1>
       </div>
+      <h2 className="codeSubTitle">Notable Projects</h2>
 
       <div className="space">
         <GitHubAPI />
       </div>
       <div>
-        <h2 className="skillsTitle">Skills</h2>
+        <h2 className="codeSubTitle">Skills</h2>
         <p className="skillsBox">
           I have worked with all kinds of tech in my time and I'm always up to
-          the task of learning something new. As of recent, the majority of my
-          work has been centered around React and vanilla Javascript. However, I
-          also have experience working with Java, Python, Ruby, and android
-          development. <br></br>
+          the challenge of learning something new. As of recent, the majority of
+          my work has been centered around React and vanilla Javascript.
+          However, I also enjoy working with technologies such as Java, Python,
+          Ruby, and Android studio. <br></br>
           <br></br> In my spare time, I've been known to tinker with
-          microcontrollers and try my hand at game development. I have ample
-          experience working with Adobe software, 3D modeling in Maya, and music
-          production. I am an experienced tester and have the knowledge to work
-          with a hand full of different databases, frameworks, and tools. I can
-          follow TDD and BDD principles and have plenty of experience working in
-          Agile environments remotely and in-person alike.
+          micro-controllers and like to try my hand in game development. Many
+          things pique my interest, whether it be AI, machine learning, or
+          automation. However, it's a colossal task to pursue everything I love
+          so prioritizing is key.  I am an experienced tester and have the
+          knowhow to follow TDD and BDD workflows. Admittedly this can be tricky
+          when working with new tech or within the constraints of a tight
+          timescale but I try my best.<br></br>
+          <br></br>
+          Throughout my projects, you will find a hand full of different
+          databases, frameworks, and tools. I'm an Agile team player and utilize
+          tech such as slack, Miro, and Trello to aid the process. If you would
+          like an in-depth look at a project workflow please have a read of{" "}
+          <a
+            href="https://github.com/FayeCarter/WhatStack/blob/master/README.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatStack's documentation
+          </a>
+          .
         </p>
       </div>
-      <h2 className="skillsTitle">Tech vocabulary</h2>
+      <h2 className="codeSubTitle">Tech vocabulary</h2>
+      <p className="skillsBox">
+        I'm continuously adding to this list however for ease of viewing here
+        are some of the technologies I use. I hope to pursue some C# programming
+        in the coming year, who knows what else I may stumble upon in the
+        process. Please feel free to browse through my{" "}
+        <a
+          href="https://github.com/Steven-Klavins"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub{" "}
+        </a>
+        to see what I'm working on at present.
+        <br></br>
+        <br></br>
+        <span className="languages">
+          •Rails •React •RSpec •Ruby •Slack •Python •MongoDB •Miro •Javascript
+          •Java •Jamsmine •VScode •Postgresql •NodeJS{" "}
+        </span>
+      </p>
       <div className="iconOuter">
         <img className="iconList" src={IconsList} alt="Icons list" />
       </div>
