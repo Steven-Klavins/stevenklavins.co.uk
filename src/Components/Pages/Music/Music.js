@@ -17,7 +17,6 @@ const Music = (props) => {
       className="topMargin"
     >
       <h1 className="musicTitle">Music</h1>
-      <h2 className=" musicTitle">Projects</h2>
 
       <h2 className="musicSubTitle">Out Of Context</h2>
 
