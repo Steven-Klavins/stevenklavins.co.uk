@@ -2,7 +2,19 @@
   padding-top: 150px;
 }
 
+.contactMargin span {
+  color: #66fcf1;
+  font-size: 1rem;
+}
+
+.contactMargin span:hover {
+  color: aliceblue;
+}
+
 .contactTitle {
+  font-family: main-font;
+  color: aliceblue;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -21,5 +33,47 @@
 }
 
 .email {
+  color: #66fcf1;
+  font-size: 1rem;
+}
+
+.email:hover {
+  color: aliceblue;
+}
+
+.CVLogo {
+  max-width: 100px;
+}
+
+.contactSubTitle {
+  margin-top: 60px;
+  font-family: main-font;
   color: aqua;
+  text-align: center;
+}
+
+.CVLink {
+  color: aliceblue;
+  font-size: 24px;
+  font-size: 18px;
+  font-family: main-font;
+  text-align: center;
+  max-width: 300px;
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 30px;
+  transition: all 300ms ease-out;
+  padding: 40px;
+}
+
+.CVLink:hover {
+  transition: all 300ms ease-in;
+  color: #66fcf1;
+  transform: scale(1.3);
+}
+
+.aboutLinks {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 }
