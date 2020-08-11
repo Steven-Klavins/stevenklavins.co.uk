@@ -22,8 +22,11 @@
 
 .aboutImg {
   max-height: 420px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.aboutImgs {
+  text-align: center;
+  margin-bottom: 100px;
 }
