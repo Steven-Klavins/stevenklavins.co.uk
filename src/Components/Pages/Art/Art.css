@@ -4,3 +4,11 @@
 .artTitle {
   text-align: center;
 }
+
+.videoOuter {
+}
+.video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
