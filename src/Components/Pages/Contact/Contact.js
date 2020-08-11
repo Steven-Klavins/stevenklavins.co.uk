@@ -1,6 +1,8 @@
 import React from "react";
 import "../../Pages/Contact/Contact.css";
 import { AnimatePresence, motion } from "framer-motion";
+import CV from "../../../images/cv-logo.png";
+import Download from "../../../images/download-logo.png";
 
 const Contact = () => {
   return (
@@ -12,12 +14,62 @@ const Contact = () => {
     >
       <h1 className="contactTitle">Contact</h1>
       <p className="contactBox">
-        <span className="email">stevenklavins94@gmail.com</span> The best way to
-        contact me is via email, I will reply as promptly as possible.
-        Alternatively, you can contact me on any of the social media platforms
-        listed to the left, click on the links provided and you will be directed
-        to the relevant profiles.
+        If you would like to get in touch the best way to contact me is via
+        email at{" "}
+        <span>
+          <a className="email" href=" mailto: stevenklavins94@gmail.com">
+            stevenklavins94@gmail.com
+          </a>
+        </span>
+        .<br></br> <br></br>
+        Alternatively, you can also contact me on any of the social media
+        platforms listed below, links are provided below.  If you would like to
+        chat in real-time to ask anything please don't hesitate to contact me on
+        LinkedIn.
+        <br></br>
+        <br></br>
+        <a
+          href="https://www.linkedin.com/in/steven-klavins-90b02a199/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>LinkedIn </span>
+        </a>
+        <a
+          href="https://github.com/Steven-Klavins"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>GitHub </span>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <span>Twitter </span>
+        </a>
       </p>
+
+      <h2 className="contactSubTitle">Looking for my CV?</h2>
+
+      <div className="aboutLinks">
+        <div className="CVLink">
+          <a
+            href="https://github.com/Steven-Klavins/CV"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="CVLogo" src={CV} img />
+            <p>Link</p>
+          </a>
+        </div>
+        <div className="CVLink">
+          <a
+            href="https://github.com/Steven-Klavins/CV/raw/master/Steven_Klavins_CV.pdf"
+            download
+          >
+            <img className="CVLogo" src={Download} img />
+            <p>Download</p>
+          </a>
+        </div>
+      </div>
     </motion.div>
   );
 };
