@@ -13,11 +13,11 @@
 }
 
 .midtextlink {
-  color: #00ffff;
+  color: aqua;
 }
 
 .midtextlink:hover {
-  color: rgb(10, 73, 73);
+  color: aliceblue;
 }
 
 .topMargin {
@@ -33,12 +33,4 @@
 .subTitle {
   font-family: main-font;
   color: aqua;
-}
-
-.videoOuter {
-  margin: 0 auto;
-}
-.video {
-  display: block;
-  text-align: center;
 }
