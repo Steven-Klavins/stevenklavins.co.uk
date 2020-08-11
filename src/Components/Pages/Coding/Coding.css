@@ -52,3 +52,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.languages {
+  color: #66fcf1;
+  font-size: 1rem;
+
+  font-family: main-font;
+}
+
+.codeSubTitle {
+  margin-top: 60px;
+  font-family: main-font;
+  color: aqua;
+  text-align: center;
+}
