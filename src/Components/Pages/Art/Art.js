@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Pages/Art/Art.css";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import ReactPlayer from "react-player";
 
 const Art = () => {
   return (
@@ -11,6 +12,15 @@ const Art = () => {
       className="artMargin"
     >
       <h1 className="artTitle">Art</h1>
+
+      <div className="videoOuter">
+        <div className="video">
+          <ReactPlayer
+            controls
+            url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
+          />
+        </div>
+      </div>
     </motion.div>
   );
 };
