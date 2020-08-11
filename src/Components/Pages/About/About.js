@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Pages/About/About.css";
 import AboutImg from "../../../images/about-photo.jpg";
+import AboutImg2 from "../../../images/about-photo2.jpg";
 import { AnimatePresence, motion } from "framer-motion";
 
 const About = () => {
@@ -27,7 +28,10 @@ const About = () => {
         fashion and Prog Metal, but hey, the world would be a boring place if we
         were all the same right?
       </p>
-      <img className="aboutImg" src={AboutImg}></img>
+      <div className="aboutImgs">
+        <img className="aboutImg" src={AboutImg}></img>
+        <img className="aboutImg" src={AboutImg2}></img>
+      </div>
     </motion.div>
   );
 };
