@@ -19,7 +19,7 @@ const Photography = () => {
             <FlickrLightbox
               api_key={process.env.REACT_APP_API_KEY}
               user_id="189653295@N04"
-              limit={12}
+              limit={24}
             />
           </div>
         </div>
