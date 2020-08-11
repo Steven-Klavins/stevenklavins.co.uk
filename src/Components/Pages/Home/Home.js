@@ -1,8 +1,7 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "../../Pages/Home/Home.css";
 import IntroAnimation from "../../IntroAnimation/IntroAnimation";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Home = (props) => {
   return (
@@ -39,14 +38,6 @@ const Home = (props) => {
       </div>
       <div>
         <IntroAnimation />
-      </div>
-      <div className="videoOuter">
-        <div className="video">
-          {/* <ReactPlayer
-            controls
-            url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
-          /> */}
-        </div>
       </div>
     </motion.div>
   );
