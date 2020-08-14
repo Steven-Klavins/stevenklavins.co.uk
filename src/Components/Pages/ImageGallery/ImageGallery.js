@@ -29,6 +29,6 @@ export default class ImageGalleryAPI extends Component {
 
     console.log(arr);
 
-    return <ImageGallery fullscreen={false} items={arr} />;
+    return <ImageGallery items={arr} />;
   }
 }
