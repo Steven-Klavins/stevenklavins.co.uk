@@ -15,12 +15,12 @@ const Photography = () => {
       <h1 className="photographyTitle">Photography</h1>
       <h2 className="photographySubTitle">Band Photography</h2>
       <div className="gallery">
-        <ImageGalleryAPI gallery="72157715421892253" />
+        <ImageGalleryAPI gallery="72157715488906066" limit={12} />
       </div>
 
       <h2 className="photographySubTitle">Nature Photography</h2>
       <div className="gallery">
-        <ImageGalleryAPI gallery="72157715469599206" />
+        <ImageGalleryAPI gallery="72157715490137388" limit={12} />
       </div>
     </motion.div>
   );
