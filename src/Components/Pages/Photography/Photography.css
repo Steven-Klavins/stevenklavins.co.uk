@@ -17,6 +17,7 @@
 
 .midAlbum {
   position: relative;
+  margin-top: 60px;
 }
 
 .album {
@@ -24,4 +25,10 @@
   left: 50%;
   min-width: 464px;
   transform: translateX(-50%);
+}
+
+.gallery {
+  max-height: 800px;
+  max-width: 800px;
+  margin: 0 auto;
 }
