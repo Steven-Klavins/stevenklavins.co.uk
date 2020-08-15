@@ -1,7 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "../../Pages/Home/Home.css";
-import IntroAnimation from "../../IntroAnimation/IntroAnimation";
 import { motion } from "framer-motion";
+const IntroAnimation = React.lazy(() =>
+  import("../../IntroAnimation/IntroAnimation")
+);
 
 const Home = (props) => {
   return (
@@ -36,9 +38,11 @@ const Home = (props) => {
           to chat? Feel free to contact me on any of the listed platforms!
         </p>
       </div>
-      <div>
-        <IntroAnimation />
-      </div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <div>
+          <IntroAnimation />
+        </div>
+      </Suspense>
     </motion.div>
   );
 };
