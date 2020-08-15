@@ -1,12 +1,12 @@
-import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import React, { Suspense } from "react";
+import { motion } from "framer-motion";
 import "../../Pages/Music/Music.css";
-import OutOfContext from "../../../images/outofcontext.jpg";
-import OutOfContext2 from "../../../images/outofcontext02.jpg";
-import OutOfContext3 from "../../../images/outofcontext03.jpg";
-import PunchingJudy from "../../../images/punchingjudy.jpg";
-import PunchingJudy2 from "../../../images/punchingjudy02.jpg";
-import PunchingJudy3 from "../../../images/punchingjudy03.jpg";
+import OutOfContext from "../../../images/outofcontext.webp";
+import OutOfContext2 from "../../../images/outofcontext02.webp";
+import OutOfContext3 from "../../../images/outofcontext03.webp";
+import PunchingJudy from "../../../images/punchingjudy.webp";
+import PunchingJudy2 from "../../../images/punchingjudy02.webp";
+import PunchingJudy3 from "../../../images/punchingjudy03.webp";
 
 const Music = (props) => {
   return (
@@ -54,12 +54,13 @@ const Music = (props) => {
           Instagram <br></br>
           YouTube <br></br>
         </p>
-
-        <div>
-          <img className="bandimg" src={OutOfContext2} />
-          <img className="bandimg" src={OutOfContext} />
-          <img className="bandimg" src={OutOfContext3} />
-        </div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <div>
+            <img className="bandimg" src={OutOfContext2} />
+            <img className="bandimg" src={OutOfContext} />
+            <img className="bandimg" src={OutOfContext3} />
+          </div>
+        </Suspense>
       </div>
 
       <h2 className="musicSubTitle">Punching Judy</h2>
@@ -80,12 +81,13 @@ const Music = (props) => {
           Vocals) Steven Klavins (Lead Guitar/Backing Vocals) Stephen Mussett
           (Rhythm Guitar) Ryan Nicholls (Bass Guitar) Phill Jones (Drum Kit)
         </p>
-
-        <div>
-          <img className="bandimg" src={PunchingJudy} />
-          <img className="bandimg" src={PunchingJudy2} />
-          <img className="bandimg" src={PunchingJudy3} />
-        </div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <div>
+            <img className="bandimg" src={PunchingJudy} />
+            <img className="bandimg" src={PunchingJudy2} />
+            <img className="bandimg" src={PunchingJudy3} />
+          </div>
+        </Suspense>
       </div>
     </motion.div>
   );
