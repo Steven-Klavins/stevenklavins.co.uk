@@ -1,7 +1,6 @@
 import React from "react";
 import "../../Components/IntroAnimation/IntroAnimation.css";
-import { motion } from "framer-motion";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const container = {
   start: {
