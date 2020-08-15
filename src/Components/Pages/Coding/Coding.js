@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "../../Pages/Coding/Coding.css";
-import GitHubAPI from "../../GitHubAPI/GitHubAPI";
 import IconsList from "../../../images/icons-list.png";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
+const GitHubAPI = React.lazy(() => import("../../GitHubAPI/GitHubAPI"));
 
 const Coding = (props) => {
   return (
@@ -17,7 +17,9 @@ const Coding = (props) => {
       <h2 className="codeSubTitle">Notable Projects</h2>
 
       <div className="space">
-        <GitHubAPI />
+        <Suspense fallback={<div>Loading...</div>}>
+          <GitHubAPI />
+        </Suspense>
       </div>
       <div>
         <h2 className="codeSubTitle">Skills</h2>
