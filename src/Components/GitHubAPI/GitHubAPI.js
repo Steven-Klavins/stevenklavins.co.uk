@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../../Components/GitHubAPI/GitHubAPI.css";
-import ProjectCard from "../ProjectCard/ProjectCard";
+const ProjectCard = React.lazy(() => import("../ProjectCard/ProjectCard"));
 
 function ApiData() {
   const [repos, setRepos] = useState([]);
