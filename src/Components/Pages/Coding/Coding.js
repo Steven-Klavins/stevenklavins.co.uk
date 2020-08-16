@@ -2,7 +2,8 @@ import React, { Suspense } from "react";
 import "../../Pages/Coding/Coding.css";
 import IconsList from "../../../images/icons-list.png";
 import { motion } from "framer-motion";
-const GitHubAPI = React.lazy(() => import("../../GitHubAPI/GitHubAPI"));
+import loader from "../../../images/loader.gif";
+import GitHubAPI from "../../GitHubAPI/GitHubAPI";
 
 const Coding = (props) => {
   return (
@@ -17,7 +18,7 @@ const Coding = (props) => {
       <h2 className="codeSubTitle">Notable Projects</h2>
 
       <div className="space">
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<img src={loader} className="loader"></img>}>
           <GitHubAPI />
         </Suspense>
       </div>
