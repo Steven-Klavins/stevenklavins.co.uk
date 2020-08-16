@@ -7,6 +7,11 @@ import OutOfContext3 from "../../../images/outofcontext03.webp";
 import PunchingJudy from "../../../images/punchingjudy.webp";
 import PunchingJudy2 from "../../../images/punchingjudy02.webp";
 import PunchingJudy3 from "../../../images/punchingjudy03.webp";
+import AudioPlayer from "../../AudioPlayer/AudioPlayer";
+import cover01 from "../../../images/cover01.jpg";
+import cover02 from "../../../images/cover02.jpg";
+import NoFaith from "../../../Audio/music/No_Faith.mp3";
+import weepingAngels from "../../../Audio/music/Weeping_Angels.mp3";
 
 const Music = (props) => {
   return (
@@ -21,16 +26,10 @@ const Music = (props) => {
       <h2 className="musicSubTitle">Out Of Context</h2>
 
       <div className="bandContentHolder">
-        <iframe
-          className="musicBox"
-          src="https://bandcamp.com/EmbeddedPlayer/track=1912035103/size=large/bgcol=333333/linkcol=00ffff/tracklist=false/transparent=true/"
-          seamless
-        >
-          <a href="http://outofcontext2016.bandcamp.com/track/no-faith-demo">
-            No Faith (Demo) by Out Of Context
-          </a>
-        </iframe>
-
+        <div className="musicBox">
+          <AudioPlayer files={NoFaith} cover={cover01} />
+        </div>
+        <div className="musicBox"></div>
         <p className="bandmsg">
           Out Of Context is a female-fronted hard rock/metal band from Croydon
           forming in 2015. The band consists of myself (lead guitar/backing
@@ -54,40 +53,32 @@ const Music = (props) => {
           Instagram <br></br>
           YouTube <br></br>
         </p>
-        <Suspense fallback={<div>Loading...</div>}>
-          <div>
-            <img className="bandimg" src={OutOfContext2} />
-            <img className="bandimg" src={OutOfContext} />
-            <img className="bandimg" src={OutOfContext3} />
-          </div>
-        </Suspense>
+
+        <div>
+          <img className="bandimg" src={OutOfContext2} />
+          <img className="bandimg" src={OutOfContext} />
+          <img className="bandimg" src={OutOfContext3} />
+        </div>
       </div>
 
       <h2 className="musicSubTitle">Punching Judy</h2>
 
       <div className="bandContentHolder">
-        <iframe
-          className="musicBox"
-          src="https://bandcamp.com/EmbeddedPlayer/album=3137507976/size=large/bgcol=333333/linkcol=00ffff/tracklist=false/transparent=true/"
-          seamless
-        >
-          <a href="http://punchingjudy1.bandcamp.com/album/demo-2014">
-            Demo 2014 by Punching Judy
-          </a>
-        </iframe>
-
+        <div className="musicBox">
+          <AudioPlayer files={weepingAngels} cover={cover02} />
+        </div>
+        <div className="musicBox"></div>
         <p className="bandmsg">
           Female fronted hard rock band from Croydon. Charliy Vaughan (Lead
           Vocals) Steven Klavins (Lead Guitar/Backing Vocals) Stephen Mussett
           (Rhythm Guitar) Ryan Nicholls (Bass Guitar) Phill Jones (Drum Kit)
         </p>
-        <Suspense fallback={<div>Loading...</div>}>
-          <div>
-            <img className="bandimg" src={PunchingJudy} />
-            <img className="bandimg" src={PunchingJudy2} />
-            <img className="bandimg" src={PunchingJudy3} />
-          </div>
-        </Suspense>
+
+        <div>
+          <img className="bandimg" src={PunchingJudy} />
+          <img className="bandimg" src={PunchingJudy2} />
+          <img className="bandimg" src={PunchingJudy3} />
+        </div>
       </div>
     </motion.div>
   );
