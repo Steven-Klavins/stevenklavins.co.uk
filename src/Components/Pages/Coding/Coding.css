@@ -66,3 +66,9 @@
   color: aqua;
   text-align: center;
 }
+
+.loader {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
