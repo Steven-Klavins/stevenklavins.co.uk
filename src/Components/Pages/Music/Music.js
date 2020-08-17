@@ -22,12 +22,26 @@ const Music = (props) => {
       className="topMargin"
     >
       <h1 className="musicTitle">Music</h1>
+      <p className="musicTextBox">
+        I've been performing with various different musicians for more than 10
+        years now. Progressive Metal and Hard Rock are my favorite genres,
+        however, I also love Jazz, Acoustic, and anything with a good groove.
+        Recently I have taken a deeper dive into the world of music production
+        and I'm working on my first solo album. <br></br>
+        <br></br>
+        The instruments I play include, bass, guitar, a bit of piano, and I've
+        also been known to do some backing vocals here and there.
+      </p>
 
       <h2 className="musicSubTitle">Out Of Context</h2>
 
       <div className="bandContentHolder">
         <div className="musicBox">
-          <AudioPlayer files={NoFaith} cover={cover01} />
+          <AudioPlayer
+            files={NoFaith}
+            cover={cover01}
+            link={"https://outofcontext2016.bandcamp.com/track/no-faith-demo"}
+          />
         </div>
         <div className="musicBox"></div>
         <p className="bandmsg">
@@ -65,7 +79,11 @@ const Music = (props) => {
 
       <div className="bandContentHolder">
         <div className="musicBox">
-          <AudioPlayer files={weepingAngels} cover={cover02} />
+          <AudioPlayer
+            files={weepingAngels}
+            cover={cover02}
+            link={"https://punchingjudy1.bandcamp.com/"}
+          />
         </div>
         <div className="musicBox"></div>
         <p className="bandmsg">
