@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Component, props } from "react";
+import React, { Component } from "react";
 import "../ImageGallery/ImageGallery.css";
 import axios from "axios";
 import ImageGallery from "react-image-gallery";
@@ -8,7 +8,7 @@ export default class ImageGalleryAPI extends Component {
     images: [],
   };
 
-  componentDidMount() {
+  getinfo() {
     axios
       .get(
         `https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=${process.env.REACT_APP_API_KEY}&photoset_id=${this.props.gallery}&extras=url_o&format=json&nojsoncallback=1`
@@ -18,11 +18,25 @@ export default class ImageGalleryAPI extends Component {
       });
   }
 
+  componentDidMount() {
+    this.getinfo();
+  }
+
+  componentDidUpdate(nextProps) {
+    if (this.props.gallery !== nextProps.gallery) {
+      this.getinfo();
+      return true;
+    }
+    if (this.state.images.length < 1) {
+      this.getinfo();
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   render() {
     let arr = [];
-    // JSON.parse(JSON.stringify(this.state.images)).forEach(function (element) {
-    //   arr.push({ original: element.url_o, thumbnail: element.url_o });
-    // });
 
     let imageStrings = JSON.parse(JSON.stringify(this.state.images));
 
@@ -38,8 +52,6 @@ export default class ImageGalleryAPI extends Component {
         });
       }
     }
-
-    console.log(arr);
 
     return <ImageGallery items={arr} />;
   }
