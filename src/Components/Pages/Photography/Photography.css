@@ -9,7 +9,6 @@
 }
 
 .photographySubTitle {
-  margin-top: 60px;
   font-family: main-font;
   color: aqua;
   text-align: center;
@@ -23,18 +22,16 @@
 .album {
   position: absolute;
   left: 50%;
-  min-width: 464px;
   transform: translateX(-50%);
 }
 
 .gallery {
-  max-height: 30%;
-  min-height: 600px;
+  min-height: 520px;
   width: 80%;
   max-width: 1800px;
   margin: 60px auto;
   margin-bottom: 82px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 6px;
-  padding: 30px;
+  padding: 15px;
 }
