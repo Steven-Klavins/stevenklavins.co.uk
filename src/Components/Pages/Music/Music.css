@@ -51,8 +51,33 @@
   padding: 12px;
   border-radius: 6px;
   min-width: 360px;
+  padding-bottom: 48px;
 }
 
 .bandimg {
   max-width: 312px;
+}
+
+.musicTextBox {
+  font-family: reading-font;
+  color: aliceblue;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  top: 150px;
+  font-size: 1rem;
+  z-index: 2;
+  width: 58%;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  min-width: 330px;
+}
+
+.galleryTitles {
+  text-align: center;
+  margin: 0 auto;
+  list-style: none;
+}
+.galleryTitles le {
+  padding: 15px;
 }
