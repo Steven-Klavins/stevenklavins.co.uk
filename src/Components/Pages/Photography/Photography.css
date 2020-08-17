@@ -2,6 +2,22 @@
   margin-top: 150px;
 }
 
+.photographyMargin button {
+  background-color: transparent;
+  border: none;
+  color: #66fcf1;
+  font-size: 18px;
+  font-family: main-font;
+  margin-top: 30px;
+  outline: none;
+}
+
+.photographyMargin button:hover {
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+}
+
 .photographyTitle {
   text-align: center;
   margin: 0;
@@ -31,6 +47,7 @@
   max-width: 1800px;
   margin: 60px auto;
   margin-bottom: 82px;
+  margin-top: 12px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   padding: 15px;
