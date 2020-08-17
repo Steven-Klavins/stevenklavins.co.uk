@@ -3,7 +3,12 @@ import "../../Pages/Photography/Photography.css";
 import { motion } from "framer-motion";
 import ImageGalleryAPI from "../ImageGallery/ImageGallery";
 
-const albums = ["72157715490137388", "72157715488906066"];
+const albums = [
+  "72157715490137388",
+  "72157715488906066",
+  "72157715520527713",
+  "72157715520970422",
+];
 
 export default class Photography extends Component {
   constructor(props) {
@@ -25,11 +30,9 @@ export default class Photography extends Component {
         <h2 className="photographySubTitle">Band Photography</h2>
         <li className="galleryTitles">
           <button onClick={() => this.setState({ album: 0 })}>Nature</button>
-          <button onClick={() => this.setState({ album: 1 })}>
-            Band Photography
-          </button>
-          <button>Scenery</button>
-          <button>Misc</button>
+          <button onClick={() => this.setState({ album: 1 })}>Music</button>
+          <button onClick={() => this.setState({ album: 2 })}>Scenery</button>
+          <button onClick={() => this.setState({ album: 3 })}>Misc</button>
         </li>
         <div className="gallery">
           <ImageGalleryAPI gallery={albums[this.state.album]} limit={12} />
