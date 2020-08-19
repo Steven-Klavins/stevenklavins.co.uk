@@ -1,6 +1,6 @@
 import React from "react";
 import "../../Pages/Contact/Contact.css";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import CV from "../../../images/cv-logo.png";
 import Download from "../../../images/download-logo.png";
 
@@ -56,7 +56,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="CVLogo" src={CV} img />
+            <img className="CVLogo" src={CV} alt="CV" img />
             <p>Link</p>
           </a>
         </div>
@@ -65,7 +65,7 @@ const Contact = () => {
             href="https://github.com/Steven-Klavins/CV/raw/master/Steven_Klavins_CV.pdf"
             download
           >
-            <img className="CVLogo" src={Download} img />
+            <img className="CVLogo" src={Download} alt="Download" img />
             <p>Download</p>
           </a>
         </div>
