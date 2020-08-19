@@ -1,9 +1,9 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import "../../Pages/Coding/Coding.css";
-import IconsList from "../../../images/icons-list.png";
 import { motion } from "framer-motion";
 import loader from "../../../images/loader.gif";
-import GitHubAPI from "../../GitHubAPI/GitHubAPI";
+import IconsList from "../../../images/icons-list.png";
+const GitHubAPI = lazy(() => import("../../GitHubAPI/GitHubAPI"));
 
 const Coding = (props) => {
   return (
@@ -18,7 +18,15 @@ const Coding = (props) => {
       <h2 className="codeSubTitle">Notable Projects</h2>
 
       <div className="space">
-        <Suspense fallback={<img src={loader} className="loader"></img>}>
+        <Suspense
+          fallback={
+            <div className="loader">
+              {" "}
+              <p>Loading projects</p>
+              <img src={loader} alt="Loading..."></img>
+            </div>
+          }
+        >
           <GitHubAPI />
         </Suspense>
       </div>
@@ -76,7 +84,7 @@ const Coding = (props) => {
         </span>
       </p>
       <div className="iconOuter">
-        <img className="iconList" src={IconsList} alt="Icons list" />
+        <img className="iconList" src={IconsList} alt="Tech Icons list" />
       </div>
     </motion.div>
   );
