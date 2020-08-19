@@ -14,7 +14,7 @@ const SocialLinks = (props) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="imgLink" src={LinkedIn}></img>
+          <img className="imgLink" src={LinkedIn} alt="LinkedIn"></img>
           <span className="fontLink">LinkedIn</span>
         </a>
       </div>
@@ -25,14 +25,14 @@ const SocialLinks = (props) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="imgLink" src={Github}></img>
+          <img className="imgLink" src={Github} alt="GitHub"></img>
           <span className="fontLink">GitHub</span>
         </a>
       </div>
 
       <div className="section">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <img className="imgLink" src={Twitter}></img>
+          <img className="imgLink" src={Twitter} alt="Twitter"></img>
           <span className="fontLink">Twitter</span>
         </a>
       </div>
@@ -43,7 +43,7 @@ const SocialLinks = (props) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="imgLink" src={Medium}></img>
+          <img className="imgLink" src={Medium} alt="Medium"></img>
           <span className="fontLink">Medium</span>
         </a>
       </div>
