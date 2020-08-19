@@ -1,7 +1,8 @@
-import React, { Component, setState } from "react";
+import React, { Component, lazy, Suspense } from "react";
 import "../../Pages/Photography/Photography.css";
 import { motion } from "framer-motion";
-import ImageGalleryAPI from "../ImageGallery/ImageGallery";
+import loader from "../../../images/loader.gif";
+const ImageGalleryAPI = lazy(() => import("../ImageGallery/ImageGallery"));
 
 const albums = [
   "72157715490137388",
@@ -35,7 +36,17 @@ export default class Photography extends Component {
           <button onClick={() => this.setState({ album: 3 })}>► Misc</button>
         </li>
         <div className="gallery">
-          <ImageGalleryAPI gallery={albums[this.state.album]} limit={12} />
+          <Suspense
+            fallback={
+              <div className="loader">
+                {" "}
+                <p>Loading Album</p>
+                <img src={loader} alt="Loading..."></img>
+              </div>
+            }
+          >
+            <ImageGalleryAPI gallery={albums[this.state.album]} limit={12} />
+          </Suspense>
         </div>
       </motion.div>
     );
