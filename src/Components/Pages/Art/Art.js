@@ -13,11 +13,21 @@ const Art = () => {
     >
       <h1 className="artTitle">Art</h1>
 
+      <p className="artBox">This art</p>
+
       <div className="videoOuter">
         <div className="video">
           <ReactPlayer
             controls
-            controlsList="nodownload"
+            config={{
+              file: {
+                attributes: {
+                  controlsList: "nodownload",
+                  disablePictureInPicture: "disablePictureInPicture",
+                },
+              },
+            }}
+            onContextMenu={(e) => e.preventDefault()}
             url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
           />
         </div>
