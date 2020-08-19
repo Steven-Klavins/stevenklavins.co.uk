@@ -37,7 +37,7 @@
 
 .skillsTitle {
   font-family: main-font;
-  color: aliceblue;
+  color: #f0f8ff;
   font-size: 2rem;
   text-align: center;
 }
@@ -71,6 +71,10 @@
   margin: 0 auto;
   justify-content: center;
   display: flex;
+  color: #f0f8ff;
+  font-size: 1rem;
+  font-family: main-font;
+  padding: 12px;
 }
 
 .codingLink {
