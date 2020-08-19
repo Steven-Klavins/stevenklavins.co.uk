@@ -47,6 +47,7 @@ export class Repo extends React.Component {
               this.props.name +
               "/master/Screenshot.png"
             }
+            alt="Project ScreenShot"
             onError={this.addDefaultSrc}
           ></img>
         </div>
