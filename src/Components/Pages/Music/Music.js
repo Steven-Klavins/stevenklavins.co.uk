@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import "../../Pages/Music/Music.css";
 import OutOfContext from "../../../images/outofcontext.webp";
@@ -120,9 +120,9 @@ const Music = (props) => {
         </p>
 
         <div>
-          <img className="bandimg" src={OutOfContext2} />
-          <img className="bandimg" src={OutOfContext} />
-          <img className="bandimg" src={OutOfContext3} />
+          <img className="bandimg" src={OutOfContext2} alt="Out Of Context" />
+          <img className="bandimg" src={OutOfContext} alt="Out Of Context" />
+          <img className="bandimg" src={OutOfContext3} alt="Out Of Context" />
         </div>
       </div>
 
@@ -179,9 +179,9 @@ const Music = (props) => {
         </p>
 
         <div>
-          <img className="bandimg" src={PunchingJudy} />
-          <img className="bandimg" src={PunchingJudy2} />
-          <img className="bandimg" src={PunchingJudy3} />
+          <img className="bandimg" src={PunchingJudy} alt="Punching Judy" />
+          <img className="bandimg" src={PunchingJudy2} alt="Punching Judy" />
+          <img className="bandimg" src={PunchingJudy3} alt="Punching Judy" />
         </div>
       </div>
     </motion.div>
