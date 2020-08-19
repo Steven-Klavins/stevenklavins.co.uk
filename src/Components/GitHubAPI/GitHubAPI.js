@@ -10,7 +10,6 @@ function ApiData() {
     axios
       .get("https://api.github.com/users/Steven-Klavins/starred")
       .then((res) => {
-        console.log(res);
         setRepos(res.data);
       })
       .catch((err) => {
