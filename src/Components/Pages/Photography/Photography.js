@@ -27,12 +27,12 @@ export default class Photography extends Component {
         className="photographyMargin"
       >
         <h1 className="photographyTitle">Photography</h1>
-        <h2 className="photographySubTitle">Band Photography</h2>
+
         <li className="galleryTitles">
-          <button onClick={() => this.setState({ album: 0 })}>Nature</button>
-          <button onClick={() => this.setState({ album: 1 })}>Music</button>
-          <button onClick={() => this.setState({ album: 2 })}>Scenery</button>
-          <button onClick={() => this.setState({ album: 3 })}>Misc</button>
+          <button onClick={() => this.setState({ album: 0 })}>► Nature</button>
+          <button onClick={() => this.setState({ album: 1 })}>► Music</button>
+          <button onClick={() => this.setState({ album: 2 })}>► Scenery</button>
+          <button onClick={() => this.setState({ album: 3 })}>► Misc</button>
         </li>
         <div className="gallery">
           <ImageGalleryAPI gallery={albums[this.state.album]} limit={12} />
