@@ -44,6 +44,7 @@ const Coding = (props) => {
           tech such as slack, Miro, and Trello to aid the process. If you would
           like an in-depth look at a project workflow please have a read of{" "}
           <a
+            className="codingLink"
             href="https://github.com/FayeCarter/WhatStack/blob/master/README.md"
             target="_blank"
             rel="noopener noreferrer"
