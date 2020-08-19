@@ -7,7 +7,7 @@ const AudioPlayer = (props) => {
     <div className="players">
       <div className="musicBox">
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <img className="coverImg" src={props.cover}></img>
+          <img className="coverImg" src={props.cover} alt="Album Cover"></img>
         </a>
         <ReactAudioPlayer
           src={props.files}
