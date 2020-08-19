@@ -29,11 +29,14 @@ const Music = (props) => {
         Recently I have taken a deeper dive into the world of music production
         and I'm working on my first solo album. <br></br>
         <br></br>
-        The instruments I play include, bass, guitar, a bit of piano, and I've
-        also been known to do some backing vocals here and there.
+        The instruments I play include bass, guitar, a bit of piano, and some
+        backing vocals here and there. In addition to this, I like to compose. I
+        by no means can play every piece in an orchestral arrangement but with a
+        bit of time and some MIDI software, I'm sure I could come up with
+        something regardless of the instrument or genre!
       </p>
 
-      <h2 className="musicSubTitle">Out Of Context</h2>
+      <h2 className="musicSubTitle">Out Of Context (2016-present)</h2>
 
       <div className="bandContentHolder">
         <div className="musicBox">
@@ -45,27 +48,75 @@ const Music = (props) => {
         </div>
         <div className="musicBox"></div>
         <p className="bandmsg">
-          Out Of Context is a female-fronted hard rock/metal band from Croydon
+          Out Of Context is a female-fronted hard Rock/Metal band from Croydon
           forming in 2015. The band consists of myself (lead guitar/backing
-          vocals), Charliy Vaughan (Lead Vocals) Stephen Mussett (Rhythm Guitar)
-          Ryan Nicholls (Bass Guitar), and Phill Jones (Drums).
+          vocals), Charliy Vaughan (Lead Vocals), Stephen Mussett (Rhythm
+          Guitar), Ryan Nicholls (Bass Guitar), and Phill Jones (Drums).
           <br></br>
           <br></br>
-          In our time as a band, we have played a number of venues, written more
-          than an album's worth of songs (full-release to come soon), and
-          received an endorsement from{" "}
+          In our time as a band, we have played a number of London venues,
+          written more than an album's worth of songs, and received an
+          endorsement from{" "}
           <a
+            className="musicLink"
             href="http://www.stonewolfguitars.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             StoneWolf Guitars
           </a>
-          . <br></br>
+          .<br></br>
+          <br></br>I feel incredibly privileged to work with the individuals in
+          this band, they are like family to me. The band as of recent has been
+          on hiatus due to a number of complications but it's by no means out of
+          action, keep an eye on our social platforms and you will no doubt see
+          new things to come! <br></br>
           <br></br>
-          FaceBook <br></br>
-          Instagram <br></br>
-          YouTube <br></br>
+          <a
+            className="musicLink"
+            href="https://www.facebook.com/outofcontextmusic"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            FaceBook{" "}
+          </a>{" "}
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://www.instagram.com/outofcontext15/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram{" "}
+          </a>{" "}
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://www.youtube.com/channel/UCIg9HuvOjMi6P1-zssztDsA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            YouTube{" "}
+          </a>{" "}
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://www.youtube.com/playlist?list=PL6oBrhak8fSCD03MT0lXw-rhKIQdGoHR-"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Videos{" "}
+          </a>
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://outofcontext2016.bandcamp.com/track/no-faith-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bandcamp{" "}
+          </a>
+          <br></br>
         </p>
 
         <div>
@@ -75,7 +126,7 @@ const Music = (props) => {
         </div>
       </div>
 
-      <h2 className="musicSubTitle">Punching Judy</h2>
+      <h2 className="musicSubTitle">Punching Judy (2011-2015)</h2>
 
       <div className="bandContentHolder">
         <div className="musicBox">
@@ -87,9 +138,44 @@ const Music = (props) => {
         </div>
         <div className="musicBox"></div>
         <p className="bandmsg">
-          Female fronted hard rock band from Croydon. Charliy Vaughan (Lead
-          Vocals) Steven Klavins (Lead Guitar/Backing Vocals) Stephen Mussett
-          (Rhythm Guitar) Ryan Nicholls (Bass Guitar) Phill Jones (Drum Kit)
+          Punching Judy was a Hard Rock band formed over 10 years ago, it became
+          the first full-fledged music project I was a part of when I joined in
+          2011. The band had a number of line ups and was disbanded in 2015.{" "}
+          <br></br>
+          <br></br>
+          Upon joining the line up consisted of myself (Lead Guitar/Backing
+          Vocals), Hannah Nicholls (Lead Vocals), Stephen Mussett (Rhythm
+          Guitar) Richard Mensah (Bass Guitar) later to be Ryan Nicholls, and
+          Phill Jones (Drum Kit).
+          <br></br>
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://www.youtube.com/channel/UCJZLDK8xuc9ItQM_Cf7CR8w/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            YouTube{" "}
+          </a>
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://www.youtube.com/playlist?list=PL6oBrhak8fSBartaSKv-b4hbc6nA2ejim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Videos{" "}
+          </a>
+          <br></br>
+          <a
+            className="musicLink"
+            href="https://punchingjudy1.bandcamp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bandcamp{" "}
+          </a>
+          <br></br>
         </p>
 
         <div>
