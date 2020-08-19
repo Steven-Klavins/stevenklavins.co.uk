@@ -2,7 +2,7 @@ import React from "react";
 import "../../Pages/About/About.css";
 import AboutImg from "../../../images/about-photo.jpg";
 import AboutImg2 from "../../../images/about-photo2.jpg";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -29,8 +29,8 @@ const About = () => {
         were all the same right?
       </p>
       <div className="aboutImgs">
-        <img className="aboutImg" src={AboutImg}></img>
-        <img className="aboutImg" src={AboutImg2}></img>
+        <img className="aboutImg" src={AboutImg} alt="Steven Klavins"></img>
+        <img className="aboutImg" src={AboutImg2} alt="Steven Klavins"></img>
       </div>
     </motion.div>
   );
