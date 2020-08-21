@@ -43,3 +43,17 @@
   position: absolute;
   bottom: 12px;
 }
+
+@media (max-width: 600px) {
+  .cardBox {
+    width: 340px;
+  }
+
+  .gitImage {
+    width: 130px;
+  }
+  .gitHubIcon {
+    max-width: 30px;
+    max-height: 26px;
+  }
+}
