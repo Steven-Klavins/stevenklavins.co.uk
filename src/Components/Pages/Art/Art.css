@@ -1,5 +1,5 @@
 .artMargin {
-  padding: 150px;
+  margin-top: 150px;
 }
 .artTitle {
   text-align: center;
@@ -7,10 +7,13 @@
   padding: 30px;
 }
 
-.video {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.videoPlayer {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  max-width: 640px;
+  margin-top: 0px;
 }
 
 .artBox {
@@ -26,4 +29,25 @@
   margin-bottom: 60px;
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+.Rvideo {
+  max-width: 200px;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 520px) {
+  .aboutImg {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .videoPlayer {
+    max-width: 330px;
+  }
 }
