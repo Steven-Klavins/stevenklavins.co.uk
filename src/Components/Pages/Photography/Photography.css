@@ -62,3 +62,14 @@
   font-family: main-font;
   padding: 12px;
 }
+
+.galleryTitles {
+  outline: none;
+}
+
+@media (max-width: 520px) {
+  .galleryTitles button {
+    display: flex;
+    margin: 0 auto;
+  }
+}
