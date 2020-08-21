@@ -15,9 +15,10 @@ const Art = () => {
 
       <p className="artBox">This art</p>
 
-      <div className="videoOuter">
-        <div className="video">
+      <div>
+        <div>
           <ReactPlayer
+            className="videoPlayer"
             controls
             config={{
               file: {
