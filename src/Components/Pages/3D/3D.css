@@ -1,9 +1,44 @@
 .threeDMargin {
   padding-top: 150px;
+  width: 100%;
 }
 
 .threeDTitle {
   text-align: center;
   margin: 0;
   padding: 30px;
+}
+
+.modalView {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalView canvas {
+  display: flex;
+}
+
+.loader {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  color: #f0f8ff;
+  font-size: 1rem;
+  font-family: main-font;
+  padding: 12px;
+}
+
+.threeDSubTitle {
+  font-family: main-font;
+  color: aqua;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .modalView {
+    display: none;
+  }
 }
