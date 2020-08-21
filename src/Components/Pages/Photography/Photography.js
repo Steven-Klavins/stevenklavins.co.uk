@@ -2,7 +2,7 @@ import React, { Component, lazy, Suspense } from "react";
 import "../../Pages/Photography/Photography.css";
 import { motion } from "framer-motion";
 import loader from "../../../images/loader.gif";
-const ImageGalleryAPI = lazy(() => import("../ImageGallery/ImageGallery"));
+const ImageGalleryAPI = lazy(() => import("../../ImageGallery/ImageGallery"));
 
 const albums = [
   "72157715490137388",
