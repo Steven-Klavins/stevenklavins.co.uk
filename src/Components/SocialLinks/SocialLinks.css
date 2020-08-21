@@ -30,3 +30,13 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+@media (max-width: 520px) {
+  .section {
+    padding-right: 60px;
+  }
+
+  .fontLink {
+    font-size: 10px;
+  }
+}
