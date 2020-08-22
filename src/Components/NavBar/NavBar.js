@@ -35,7 +35,7 @@ const NavBar = (props) => {
               <Link to="/photography">Photography</Link>
             </li>
             <li>
-              <Link to="/3D">3D modelling/printing</Link>
+              <Link to="/3D">3D modelling/Electronics</Link>
             </li>
             <li>
               <Link to="/art">Art</Link>
