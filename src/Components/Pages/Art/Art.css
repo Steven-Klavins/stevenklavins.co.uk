@@ -40,6 +40,11 @@
   left: 0;
 }
 
+.photoshopSubTitle {
+  font-family: main-font;
+  color: aqua;
+  text-align: center;
+}
 @media (max-width: 520px) {
   .aboutImg {
     max-height: 300px;
