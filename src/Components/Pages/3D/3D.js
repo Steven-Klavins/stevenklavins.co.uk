@@ -1,54 +1,18 @@
 import React, { Suspense, lazy, Component } from "react";
 import { motion } from "framer-motion";
-
-import ProjectBox from "../../ProjectBox/ProjectBox";
 import "../../Pages/3D/3D.css";
 import guitar from "../../../obj/guitar.obj";
 import loader from "../../../images/loader.gif";
+import electronics from "../../../images/electronics.jpg";
+import controlbox01 from "../../../images/controlBox01.jpg";
+import controlbox02 from "../../../images/controlBox02.jpg";
+import printing from "../../../images/printing.jpg";
+import cameraDolly from "../../../images/camera_dolly.jpg";
+import rollercoastercart from "../../../images/rollercoaster_cart.png";
+import led from "../../../images/led01.jpg";
 const Viewer = lazy(() => import("../3D/Viewer"));
 
-const animations = [
-  [
-    "https://www.youtube.com/watch?v=h0EVD_0ojoA",
-    "this is a test",
-    "The Baphomet",
-  ],
-  [
-    "https://www.youtube.com/watch?v=eaXS_lfDJlk",
-    "this is a test",
-    "Out Of Context Opening",
-  ],
-
-  [
-    "https://www.youtube.com/watch?v=d0D3f8iECEE",
-    "this is a test",
-    "Stone Wolf Guitars",
-  ],
-];
-
 export default class threeD extends Component {
-  state = {
-    position: 1,
-  };
-
-  moveFoward = () => {
-    if (this.state.position < animations.length - 1) {
-      let num = (this.state.position += 1);
-      this.setState({ position: num });
-    } else {
-      this.setState({ position: 0 });
-    }
-  };
-
-  moveBack = () => {
-    if (this.state.position > 1 || this.state.position === 1) {
-      let num = (this.state.position -= 1);
-      this.setState({ position: num });
-    } else {
-      this.setState({ position: animations.length - 1 });
-    }
-  };
-
   render() {
     return (
       <motion.div
@@ -57,9 +21,33 @@ export default class threeD extends Component {
         initial={{ opacity: 0 }}
         className="threeDMargin"
       >
-        <h1 className="threeDTitle">3D Modelling & Printing</h1>
+        <h1 className="threeDTitle">3D Printing & Electronics</h1>
 
-        <Suspense
+        <h2 className="threeDSubTitle ">3D Printing</h2>
+
+        <div className="threeDImgContainer">
+          <img
+            className="threeDImg"
+            src={printing}
+            alt="Micro Controller Electronics"
+          />
+          <img className="threeDImg" src={cameraDolly} alt="Control Box" />
+          <img className="threeDImg" src={controlbox01} alt="Control Box" />
+        </div>
+
+        <h2 className="threeDSubTitle">Electronics/Micro Controllers</h2>
+
+        <div className="threeDImgContainer">
+          <img
+            className="threeDImg"
+            src={electronics}
+            alt="Micro Controller Electronics"
+          />
+          <img className="threeDImg" src={led} alt="Control Box" />
+          <img className="threeDImg" src={controlbox02} alt="Control Box" />
+        </div>
+
+        {/* <Suspense
           fallback={
             <div className="loader">
               {" "}
@@ -71,14 +59,7 @@ export default class threeD extends Component {
           <div className="modalView">
             <Viewer color={0x565d5d} object={guitar} />
           </div>
-        </Suspense>
-        <h2 className="threeDSubTitle ">Animation</h2>
-        <ProjectBox
-          params={animations[this.state.position]}
-          moveFoward={this.moveFoward}
-          moveBack={this.moveBack}
-        />
-        <h2 className="threeDSubTitle ">3D Printing</h2>
+        </Suspense> */}
       </motion.div>
     );
   }
