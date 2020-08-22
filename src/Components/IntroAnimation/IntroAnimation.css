@@ -70,3 +70,9 @@
   top: 660px;
   width: 50%;
 }
+
+@media (max-width: 500px) {
+  .bounce {
+    width: 20rem;
+  }
+}
