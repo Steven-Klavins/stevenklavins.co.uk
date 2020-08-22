@@ -30,7 +30,7 @@ const SlideDrawer = (props) => {
         <li>
           {" "}
           <Link to="/3D">
-            3D modelling/<br></br> printing
+            3D modelling/<br></br> Electronics
           </Link>
         </li>
         <li>
