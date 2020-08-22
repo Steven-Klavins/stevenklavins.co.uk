@@ -35,6 +35,16 @@
   font-family: main-font;
   color: aqua;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.threeDImgContainer {
+  margin: 0 auto;
+  text-align: center;
+}
+.threeDImg {
+  max-width: 312px;
 }
 
 @media (max-width: 520px) {
