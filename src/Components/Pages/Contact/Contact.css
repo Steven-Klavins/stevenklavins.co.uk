@@ -1,3 +1,23 @@
+.aboutLinks {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactBox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  color: aliceblue;
+  font-family: reading-font;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px;
+  top: 150px;
+  font-size: 1rem;
+  width: 66%;
+  z-index: 2;
+}
+
 .contactMargin {
   padding-top: 150px;
 }
@@ -11,26 +31,31 @@
   color: aliceblue;
 }
 
-.contactTitle {
-  font-family: main-font;
-  color: aliceblue;
-  margin: 0;
-  padding: 30px;
-  text-align: center;
+.CVLogo {
+  max-width: 100px;
 }
 
-.contactBox {
-  font-family: reading-font;
-  color: aliceblue;
-  padding: 30px;
+.contactSubTitle {
+  margin-top: 60px;
+}
+
+.CVLink {
+  color: #f0f8ff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: main-font;
   margin: 0 auto;
-  border-radius: 6px;
-  top: 150px;
-  font-size: 1rem;
-  z-index: 2;
-  width: 66%;
-  margin-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  text-align: center;
+  transition: all 300ms ease-out;
+  padding: 40px;
+  padding-top: 30px;
+}
+
+.CVLink:hover {
+  color: #66fcf1;
+  transform: scale(1.3);
+  transition: all 300ms ease-in;
 }
 
 .email {
@@ -40,41 +65,4 @@
 
 .email:hover {
   color: aliceblue;
-}
-
-.CVLogo {
-  max-width: 100px;
-}
-
-.contactSubTitle {
-  margin-top: 60px;
-  font-family: main-font;
-  color: aqua;
-  text-align: center;
-}
-
-.CVLink {
-  color: aliceblue;
-  font-size: 24px;
-  font-size: 18px;
-  font-family: main-font;
-  text-align: center;
-  max-width: 300px;
-  display: inline-block;
-  margin: 0 auto;
-  padding-top: 30px;
-  transition: all 300ms ease-out;
-  padding: 40px;
-}
-
-.CVLink:hover {
-  transition: all 300ms ease-in;
-  color: #66fcf1;
-  transform: scale(1.3);
-}
-
-.aboutLinks {
-  margin: 0 auto;
-  justify-content: center;
-  text-align: center;
 }
