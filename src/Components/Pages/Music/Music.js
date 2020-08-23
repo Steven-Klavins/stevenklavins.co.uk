@@ -21,7 +21,7 @@ const Music = (props) => {
       initial={{ opacity: 0 }}
       className="topMargin"
     >
-      <h1 className="musicTitle">Music</h1>
+      <h1>Music</h1>
       <p className="musicTextBox">
         I've been performing with various different musicians for more than 10
         years now. Progressive Metal and Hard Rock are my favorite genres,
