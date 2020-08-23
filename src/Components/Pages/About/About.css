@@ -1,36 +1,30 @@
-.aboutMargin {
-  padding-top: 150px;
-}
-
 .aboutBox {
-  font-family: reading-font;
-  color: aliceblue;
-  padding: 30px;
-  margin: 0 auto;
-  border-radius: 6px;
-  top: 150px;
-  font-size: 1rem;
-  z-index: 2;
-  width: 66%;
-  margin-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-.aboutTitle {
-  text-align: center;
-  margin: 0;
+  border-radius: 6px;
+  color: #f0f8ff;
+  font-family: reading-font;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 30px;
+  top: 150px;
+  width: 66%;
+  z-index: 2;
 }
 
 .aboutImg {
-  max-height: 420px;
   display: inline-block;
   margin-bottom: 20px;
+  max-height: 420px;
 }
 
-.aboutImgs {
+.imageContainer {
   text-align: center;
   margin-bottom: 100px;
+}
+
+.aboutMargin {
+  padding-top: 150px;
 }
 
 @media (max-width: 520px) {
