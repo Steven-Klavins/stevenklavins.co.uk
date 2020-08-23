@@ -27,7 +27,7 @@ export default class Photography extends Component {
         initial={{ opacity: 0 }}
         className="photographyMargin"
       >
-        <h1 className="photographyTitle">Photography</h1>
+        <h1>Photography</h1>
 
         <p className="photographyTextBox">
           If there's something interesting to be seen or a notable event
