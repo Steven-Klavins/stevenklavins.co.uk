@@ -1,54 +1,32 @@
-.threeDMargin {
-  padding-top: 150px;
-  width: 100%;
-}
-
-.threeDTitle {
-  text-align: center;
-  margin: 0;
+.threeDDescription {
+  font-family: reading-font;
+  color: aliceblue;
   padding: 30px;
-}
-
-.modalView {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.modalView canvas {
-  display: flex;
-}
-
-.loader {
   margin: 0 auto;
-  justify-content: center;
-  display: flex;
-  color: #f0f8ff;
+  border-radius: 6px;
+  top: 150px;
   font-size: 1rem;
-  font-family: main-font;
-  padding: 12px;
+  z-index: 2;
+  width: 68%;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.threeDSubTitle {
-  font-family: main-font;
-  color: aqua;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 60px;
+.threeDImg {
+  max-width: 312px;
 }
 
 .threeDImgContainer {
   margin: 0 auto;
   text-align: center;
 }
-.threeDImg {
-  max-width: 312px;
+
+.threeDMargin {
+  padding-top: 150px;
+  width: 100%;
 }
 
-@media (max-width: 520px) {
-  .modalView {
-    display: none;
-  }
+.threeDSubTitle {
+  margin-top: 60px;
 }
