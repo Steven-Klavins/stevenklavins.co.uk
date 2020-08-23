@@ -12,7 +12,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       className="contactMargin"
     >
-      <h1 className="contactTitle">Contact</h1>
+      <h1>Contact</h1>
       <p className="contactBox">
         If you would like to get in touch the best way to contact me is via
         email at{" "}
