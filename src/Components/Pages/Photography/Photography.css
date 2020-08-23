@@ -1,20 +1,59 @@
+.album {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.gallery {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-bottom: 82px;
+  margin-top: 12px;
+  max-width: 1800px;
+  padding: 30px;
+  width: 68%;
+}
+
+.galleryTitles {
+  outline: none;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+.loader {
+  color: #f0f8ff;
+  display: flex;
+  font-size: 1rem;
+  font-family: main-font;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.midAlbum {
+  margin-top: 60px;
+  position: relative;
+}
+
 .photographyMargin {
   margin-top: 150px;
 }
 
 .photographyTextBox {
-  font-family: reading-font;
-  color: aliceblue;
-  padding: 30px;
-  margin: 0 auto;
-  border-radius: 6px;
-  top: 150px;
-  font-size: 1rem;
-  z-index: 2;
-  width: 68%;
-  margin-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  color: aliceblue;
+  font-family: reading-font;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
   max-width: 1800px;
+  padding: 30px;
+  top: 150px;
+  width: 68%;
+  z-index: 2;
 }
 
 .photographyMargin button {
@@ -34,51 +73,9 @@
 }
 
 .photographyTitle {
-  text-align: center;
   margin: 0;
   padding: 30px;
-}
-
-.photographySubTitle {
-  font-family: main-font;
-  color: aqua;
   text-align: center;
-}
-
-.midAlbum {
-  position: relative;
-  margin-top: 60px;
-}
-
-.album {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.gallery {
-  width: 68%;
-  max-width: 1800px;
-  margin: 0 auto;
-  margin-bottom: 82px;
-  margin-top: 12px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 6px;
-  padding: 30px;
-}
-
-.loader {
-  margin: 0 auto;
-  justify-content: center;
-  display: flex;
-  color: #f0f8ff;
-  font-size: 1rem;
-  font-family: main-font;
-  padding: 12px;
-}
-
-.galleryTitles {
-  outline: none;
 }
 
 .photographyLink {
