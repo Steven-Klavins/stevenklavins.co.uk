@@ -12,7 +12,7 @@ const About = () => {
       initial={{ opacity: 0 }}
       className="aboutMargin"
     >
-      <h1 className="aboutTitle">About</h1>
+      <h1>About</h1>
       <p className="aboutBox">
         Thank you so much for taking the time out of your day to find out a
         little more about me. My name is Steven (most call me Steve) and I'm
@@ -28,7 +28,7 @@ const About = () => {
         fashion and Prog Metal, but hey, the world would be a boring place if we
         were all the same right?
       </p>
-      <div className="aboutImgs">
+      <div className="imageContainer">
         <img className="aboutImg" src={AboutImg} alt="Steven Klavins"></img>
         <img className="aboutImg" src={AboutImg2} alt="Steven Klavins"></img>
       </div>
