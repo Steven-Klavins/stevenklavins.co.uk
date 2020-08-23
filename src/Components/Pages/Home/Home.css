@@ -1,36 +1,26 @@
-.welcomeTextBox {
-  font-family: reading-font;
-  color: aliceblue;
-  padding: 30px;
-  margin: 0 auto;
-  border-radius: 6px;
-  top: 150px;
-  font-size: 1rem;
-  z-index: 2;
-  width: 68%;
-  margin-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
+.midTextLink {
+  color: #00ffff;
 }
 
-.midtextlink {
-  color: aqua;
-}
-
-.midtextlink:hover {
-  color: aliceblue;
+.midTextLink:hover {
+  color: #f0f8ff;
 }
 
 .topMargin {
   padding-top: 150px;
 }
 
-.openTitle {
-  text-align: center;
-  margin: 0;
-
+.welcomeTextBox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  color: #f0f8ff;
+  font-family: reading-font;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 1800px;
   padding: 30px;
-}
-.subTitle {
-  font-family: main-font;
-  color: aqua;
+  top: 150px;
+  width: 68%;
+  z-index: 2;
 }
