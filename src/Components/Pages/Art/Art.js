@@ -1,8 +1,11 @@
-import React, { Component } from "react";
+import React, { Suspense, lazy, Component } from "react";
 import "../../Pages/Art/Art.css";
 import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import ProjectBox from "../../ProjectBox/ProjectBox";
+import guitar from "../../../obj/guitar.obj";
+import loader from "../../../images/loader.gif";
+const Viewer = lazy(() => import("../3D/Viewer"));
 
 const animations = [
   [
@@ -54,7 +57,7 @@ export default class Art extends Component {
         initial={{ opacity: 0 }}
         className="artMargin"
       >
-        <h1 className="artTitle">Art</h1>
+        <h1>Art</h1>
 
         <p className="artBox">
           I a BA in Digital Arts and foundation in graphics and over the years
@@ -64,7 +67,7 @@ export default class Art extends Component {
         </p>
 
         <div>
-          <h2 className="photoshopSubTitle">Uni Show Reel</h2>
+          <h2>Uni Show Reel</h2>
           <div>
             <ReactPlayer
               className="videoPlayer"
@@ -81,7 +84,7 @@ export default class Art extends Component {
               url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
             />
 
-            <h2 className="photoshopSubTitle">Animation</h2>
+            <h2>Animation</h2>
 
             <ProjectBox
               params={animations[this.state.position]}
