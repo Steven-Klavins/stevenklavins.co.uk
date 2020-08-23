@@ -78,13 +78,13 @@ a:hover {
   color: #66fcf1;
 }
 
-@media (max-width: 1146px) {
+@media (max-width: 1300px) {
   .navItems {
     display: none;
   }
 }
 
-@media (min-width: 1146px) {
+@media (min-width: 1300px) {
   .toolBarButton {
     display: none;
   }
