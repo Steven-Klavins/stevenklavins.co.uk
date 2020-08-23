@@ -9,4 +9,13 @@ body {
 h1 {
   font-family: main-font;
   color: #f0f8ff;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #00ffff;
+  font-family: main-font;
+  text-align: center;
 }
