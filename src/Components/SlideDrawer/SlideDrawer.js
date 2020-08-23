@@ -30,11 +30,13 @@ const SlideDrawer = (props) => {
         <li>
           {" "}
           <Link to="/3D">
-            3D modelling/<br></br> Electronics
+            3D Printing/<br></br> Electronics
           </Link>
         </li>
         <li>
-          <Link to="/art">Art</Link>
+          <Link to="/art">
+            Art/<br></br> 3D Modeling
+          </Link>
         </li>
         <li>
           <Link to="/about">About</Link>
