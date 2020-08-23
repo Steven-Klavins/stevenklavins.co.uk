@@ -5,7 +5,7 @@ import loader from "../../../images/loader.gif";
 import IconsList from "../../../images/icons-list.png";
 const GitHubAPI = lazy(() => import("../../GitHubAPI/GitHubAPI"));
 
-const Coding = (props) => {
+const Coding = () => {
   return (
     <motion.div
       exit={{ opacity: 0 }}
@@ -13,11 +13,11 @@ const Coding = (props) => {
       initial={{ opacity: 0 }}
     >
       <div className="upperMargin">
-        <h1 className="codeTitle">Software/Web Development</h1>
+        <h1>Software/Web Development</h1>
       </div>
-      <h2 className="codeSubTitle">Notable Projects</h2>
+      <h2>Notable Projects</h2>
 
-      <div className="space">
+      <div className="projectsContainer">
         <Suspense
           fallback={
             <div className="loader">
@@ -31,8 +31,8 @@ const Coding = (props) => {
         </Suspense>
       </div>
       <div>
-        <h2 className="codeSubTitle">Skills</h2>
-        <p className="skillsBox">
+        <h2>Skills</h2>
+        <p className="skillsDescription">
           I have worked with all kinds of tech in my time and I'm always up to
           the challenge of learning something new. As of recent, the majority of
           my work has been centered around React and vanilla Javascript.
@@ -52,7 +52,7 @@ const Coding = (props) => {
           tech such as slack, Miro, and Trello to aid the process. If you would
           like an in-depth look at a project workflow please have a read of{" "}
           <a
-            className="codingLink"
+            className="midTextLink"
             href="https://github.com/FayeCarter/WhatStack/blob/master/README.md"
             target="_blank"
             rel="noopener noreferrer"
@@ -62,8 +62,8 @@ const Coding = (props) => {
           .
         </p>
       </div>
-      <h2 className="codeSubTitle">Tech vocabulary</h2>
-      <p className="skillsBox">
+      <h2>Tech vocabulary</h2>
+      <p className="skillsDescription">
         I'm continuously adding to this list however for ease of viewing here
         are some of the technologies I use. I hope to pursue some C# programming
         in the coming year, who knows what else I may stumble upon in the
@@ -83,7 +83,7 @@ const Coding = (props) => {
           •Java •Jamsmine •VScode •Postgresql •NodeJS{" "}
         </span>
       </p>
-      <div className="iconOuter">
+      <div className="iconListOuter">
         <img className="iconList" src={IconsList} alt="Tech Icons list" />
       </div>
     </motion.div>
