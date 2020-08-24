@@ -23,11 +23,12 @@ const Music = (props) => {
     >
       <h1>Music</h1>
       <p className="musicTextBox">
-        I've been performing with various different musicians for more than 10
-        years now. Progressive Metal and Hard Rock are my favorite genres,
-        however, I also love Jazz, Acoustic, and anything with a good groove.
-        Recently I have taken a deeper dive into the world of music production
-        and I'm working on my first solo album. <br></br>
+        For more than 10 years a large chunk of my social life has been
+        performing with musicians and attending gigs. My favorite genres are
+        Progressive Metal and Hard Rock, however, I also love Jazz, Acoustic,
+        and anything that holds a good groove. In the past year, I have taken a
+        deeper dive into the world of music production and I'm producing my
+        first solo album. <br></br>
         <br></br>
         The instruments I play include bass, guitar, a bit of piano, and some
         backing vocals here and there. In addition to this, I like to compose. I
