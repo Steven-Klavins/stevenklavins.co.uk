@@ -25,24 +25,24 @@ export default class Home extends Component {
             Thank you so much for visiting my website! I'm a full-stack
             developer,{" "}
             <a
-              className="midtextlink"
+              className="midTextLink"
               href="https://makers.tech/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Makers academy
             </a>{" "}
-            graduate, and tech addict. I'm London based however I'm an
-            experienced remote worker and have the flexibility to
+            graduate, and tech addict. I'm presently based in south London (UK)
+            however I'm an experienced remote worker and have the flexibility to
             relocate/travel if need be. <br></br>
             <br></br>I hold a BA in Digital Arts, perform in a band, and have a
-            love of all things creative. If your looking for someone with a
-            yearning to make the world a better place through innovative tech
-            I'm your guy! <br></br>
+            love of all things creative. If you're looking for someone with high
+            ambition, an eagerness to learn, and the desire to make the world a
+            better place through tech I'm your guy! <br></br>
             <br></br>To be frank, its what gets me out of bed in the morning.
             Want to chat? Feel free to contact me on any of the listed platforms
             below or visit my{" "}
-            <Link className="midtextlink" to="/contact">
+            <Link className="midTextLink" to="/contact">
               contact page
             </Link>{" "}
             for further details.
