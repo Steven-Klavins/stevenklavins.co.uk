@@ -20,12 +20,13 @@ const About = () => {
         tech, music, and art. In late 2019 I left the stability of my job in
         pursuit of doing something more meaningful with my life. Following my
         resignation, I taught myself OOP principles, attended Makers academy,
-        and immersed myself in learning. <br></br> <br></br>I'm a musician and
-        play guitar in my band Out Of Context, I love old school horror movies
-        and animation. I'm not a huge sports fan but I love swimming and was a
-        voluntary swimming teacher a few years ago. I suppose you could say I'm
-        a quirky individual, I embrace alternative culture. I love gothic
-        fashion and Prog Metal, but hey, the world would be a boring place if we
+        and immersed myself in learning. <br></br> <br></br>I'm a musician, a
+        horror movie nerd, and enjoy watching documentaries and most things
+        animated. I'm not a huge sports fan but I love swimming and was a
+        voluntary swimming teacher once upon a time. I suppose you could say I'm
+        a quirky individual, I embrace alternative culture and have a taste for
+        gothic fashion and Prog-Metal. I enjoy having conversations with those
+        who think a little different, the world would be a boring place if we
         were all the same right?
       </p>
       <div className="imageContainer">
