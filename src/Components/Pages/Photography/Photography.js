@@ -30,11 +30,11 @@ export default class Photography extends Component {
         <h1>Photography</h1>
 
         <p className="photographyTextBox">
-          If there's something interesting to be seen or a notable event
-          happening there's a good chance I'll be there with my camera. I
-          primarily shoot band photography however, anything that piques my
-          interest or looks the part I will try and capture in a photograph.{" "}
-          <br></br> <br></br>You can discover more of my photography either on
+          I primarily shoot band photography, however, I will no doubt seize the
+          opportunity for a photo if something were to pique my interest.
+          Whether it be the common urban fox strolling the streets at night or
+          the Queen herself, I'll have my camera ready at hand. <br></br> 
+          <br></br>If you would like to discover more of my work please refer to
           my{" "}
           <a
             className="photographyLink"
