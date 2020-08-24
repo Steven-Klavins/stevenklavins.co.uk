@@ -23,8 +23,8 @@ const Contact = () => {
         </span>
         .<br></br> <br></br>
         Alternatively, you can also contact me on any of the social media
-        platforms listed below, links are provided below.  If you would like to
-        chat in real-time to ask anything please don't hesitate to contact me on
+        platforms listed, links are provided below. If you would like to chat in
+        real-time to ask anything please don't hesitate to contact me on
         LinkedIn.
         <br></br>
         <br></br>
@@ -42,7 +42,11 @@ const Contact = () => {
         >
           <span>GitHub </span>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://twitter.com/klavinssteven"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <span>Twitter </span>
         </a>
       </p>
