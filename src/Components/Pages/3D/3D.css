@@ -1,6 +1,14 @@
+.midTextLink {
+  color: #66fcf1;
+}
+
+.midTextLink:hover {
+  color: #f0f8ff;
+}
+
 .threeDDescription {
   font-family: reading-font;
-  color: aliceblue;
+  color: #f0f8ff;
   padding: 30px;
   margin: 0 auto;
   border-radius: 6px;
@@ -19,6 +27,12 @@
 
 .threeDImgContainer {
   margin: 0 auto;
+  text-align: center;
+}
+
+.threeDImgContainerBottom {
+  margin: 0 auto;
+  margin-bottom: 60px;
   text-align: center;
 }
 
