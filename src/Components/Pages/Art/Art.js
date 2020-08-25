@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import ProjectBox from "../../ProjectBox/ProjectBox";
 import guitar from "../../../obj/guitar.obj";
 import loader from "../../../images/loader.gif";
-const Viewer = lazy(() => import("../3D/Viewer"));
+const Viewer = lazy(() => import("../../Viewer/Viewer"));
 
 const animations = [
   [
@@ -83,6 +83,31 @@ export default class Art extends Component {
               onContextMenu={(e) => e.preventDefault()}
               url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
             />
+
+            <h2>3D Modelling</h2>
+
+            <Suspense
+              fallback={
+                <div className="loader">
+                  {" "}
+                  <p>Loading model...</p>
+                  <img src={loader} alt="Loading model..."></img>
+                </div>
+              }
+            >
+              {" "}
+              <p className="artBox">
+                <span className="modelDescription">
+                  <br></br>
+                  <br></br> Want to get a better look at one of my 3D models?
+                  Use your mouse and scroll button to explore my guitar concept
+                  "The Baphomet".
+                </span>
+              </p>
+              <div className="modelView">
+                <Viewer object={guitar} />
+              </div>
+            </Suspense>
 
             <h2>Animation</h2>
 
