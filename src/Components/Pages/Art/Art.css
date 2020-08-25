@@ -27,15 +27,16 @@
   padding: 12px;
 }
 
-.modalView {
+.modelView {
   align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 30px;
 }
 
-.modalView canvas {
+.modelView canvas {
   display: flex;
 }
 
@@ -63,10 +64,14 @@
     max-height: 300px;
   }
 
-  .modalView {
+  .modelView {
     display: none;
   }
   .videoPlayer {
     max-width: 330px;
+  }
+
+  .modelDescription {
+    display: none;
   }
 }
