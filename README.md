@@ -12,7 +12,8 @@ The third reason was site was not hosted on a custom domain, whilst this not bei
 The fourth reason was due to poor optimization, a number of the components were not loading fluently and it was unusable on a mobile network. This was something I wanted to fix asap as it would not leave a good impression opening a website to broken CSS and half loaded images.
 
 ## Technology used 
-This site was built using the following tech stack. React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
+This site was built using the following tech stack. 
+### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
 
 
 ## Challenges with optimization 
