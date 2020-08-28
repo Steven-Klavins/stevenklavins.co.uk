@@ -3,15 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Test deploy link](https://stevenklavins.netlify.app/)
 
 ## About 
-This is the repository of my new website, I recently deployed a website just a month or so ago so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. This is something I really regretted not considering looking back on the choices I made, however I happy to say this new rendition is fully responsive across the board.
+It was not long ago I deployed a portfolio website so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. So I returned to the drawing board and I'm now happy to say this new rendition is mobile-friendly and will adapt to any given screen.
 
-The second reason for rebuilding my site is with all honesty I rushed the project first time around and I knew I could have done better. 
+The second reason for rebuilding my site with all honesty is I rushed the project first time around, I knew I could have done better. This time I took the time to make additional planning and ultimately it paid off.
 
-The third reason was site was not hosted on a custom domain, whilst this not being crucial it was something that was bugging me. I have now bought a domain and the site is hosted via TSO host. 
+The third reason was site was not hosted on a custom domain, whilst this not being crucial it was something that was bugging me. I have now bought a domain and the site is due to be hosted via TSO. At present, it is once more deployed on Netlify but will soon be on a custom domain once I sorted out a new SSL certificate. 
 
-The fourth reason was I hadn't implemented a CI pipeline meaning I would have to continuously have to make changes manually if I wished to update the site. 
-The fifth reason for building the site from scratch was the site was very poorly optimized. A number of the components were not loading fluently and it was unusable on a mobile network. This was something I wanted to fix asap as it would not leave a good impression opening a website to broken CSS and half loaded images. 
-
+The fourth reason was due to poor optimization, a number of the components were not loading fluently and it was unusable on a mobile network. This was something I wanted to fix asap as it would not leave a good impression opening a website to broken CSS and half loaded images.
 
 ## Technology used 
 This site was built using the following tech stack. React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
