@@ -13,7 +13,7 @@ The fourth reason was due to poor optimization, a number of the components were 
 
 ## Technology used 
 This site was built using the following tech stack. 
-### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
+#### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
 
 
 ## Challenges with optimization 
