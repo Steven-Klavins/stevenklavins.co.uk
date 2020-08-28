@@ -19,6 +19,10 @@ This site was built using the following tech stack. React, Javascript, Jest, Ax
 
 ## Challenges with optimization 
 
+A big challenge I found throughout this project was optimizing my components in order to facilitate a fast loading time and a fluent user experience. Despite this issue not being fully resolved, I provided fallbacks through Reacts suspend feature, this means if a component was to load slowly the user will see a loading message appose to a blank space. 
+
+There are two key components that suffer from this issue, my notable project cards and photo gallery. I suspect the reason these two components suffer from this problem is due to the API calls they make. In both cases, these components need to first retrieve a JSON, then process that information and render it into the component itself.  This is something I'll have to do a little more research on however the fallback serves its purpose for the time being.
+
 ## API usage
 
 ## Deployment 
