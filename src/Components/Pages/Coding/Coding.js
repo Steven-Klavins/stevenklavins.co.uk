@@ -80,7 +80,7 @@ const Coding = () => {
         <br></br>
         <span className="languages">
           •Rails •React •RSpec •Ruby •Slack •Python •MongoDB •Miro •Javascript
-          •Java •Jamsmine •VScode •Postgresql •NodeJS{" "}
+          •Java •Jasmine •VScode •Postgresql •NodeJS{" "}
         </span>
       </p>
       <div className="iconListOuter">
