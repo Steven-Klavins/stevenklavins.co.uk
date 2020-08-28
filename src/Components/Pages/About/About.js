@@ -26,8 +26,8 @@ const About = () => {
         voluntary swimming teacher once upon a time. I suppose you could say I'm
         a quirky individual, I embrace alternative culture and have a taste for
         gothic fashion and Prog-Metal. I enjoy having conversations with those
-        who think a little different, the world would be a boring place if we
-        were all the same right?
+        who think a little different, but the world would be a boring place if
+        we were all the same right?
       </p>
       <div className="imageContainer">
         <img className="aboutImg" src={AboutImg} alt="Steven Klavins"></img>
