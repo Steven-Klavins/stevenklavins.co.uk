@@ -60,14 +60,35 @@ export default class Art extends Component {
         <h1>Art</h1>
 
         <p className="artBox">
-          I a BA in Digital Arts and foundation in graphics and over the years
-          I've covered a large array of mediums and methods, primarily digital.
-          The tech suites I use just to name a few include The Adobe Suite,
-          Maya, Cinema 4D, Unreal Engine, and Wacom products.
+          Presently, I hold a BA in Digital Arts, a foundation in graphics, and
+          over the years I've explored a large array of mediums and
+          methodologies, primarily digital. The software suites I use just to
+          name a few include The Adobe Suite, Maya, Cinema 4D, and Unreal
+          Engine. I have a keen taste for gothic fantasy art and love the work
+          of artists such as HR Gieger, Anne Stokes, and Ben Erdt. <br></br>
+          <br></br>
+          From time to time I'll visit London museums such as the V&A to draw
+          statues and brush up on my anatomy skills, and on occasion, I may get
+          out some acrylic paints. Truth be told however I'll usually stick to
+          my graphics tablet, Maya, or a pen and paper (the clean up is a lot
+          easier!).
         </p>
 
+        <ProjectBox
+          params={animations[this.state.position]}
+          moveFoward={this.moveFoward}
+          moveBack={this.moveBack}
+        />
+        <h2>Uni Show Reel</h2>
+        <p className="artBox">
+          As previously mentioned I hold a BA in Digital Arts, at university was
+          the first place I started to explore 3D modeling, and for a brief
+          period of time, we even learned the basics of game development and
+          videography. It was at this time I learned how to properly manage a
+          project within a team. My career has been far less 3D focused these
+          days however it's still a medium I hold a keen interest in.
+        </p>
         <div>
-          <h2>Uni Show Reel</h2>
           <div>
             <ReactPlayer
               className="videoPlayer"
@@ -84,7 +105,7 @@ export default class Art extends Component {
               url="https://www.dropbox.com/s/vj4anc4ijmy5ts9/Steven%20Klavins%202016-2018.mp4?raw=1"
             />
 
-            <h2>3D Modelling</h2>
+            {/* <h2>3D Modelling</h2>
 
             <Suspense
               fallback={
@@ -107,15 +128,7 @@ export default class Art extends Component {
               <div className="modelView">
                 <Viewer object={guitar} />
               </div>
-            </Suspense>
-
-            <h2>Animation</h2>
-
-            <ProjectBox
-              params={animations[this.state.position]}
-              moveFoward={this.moveFoward}
-              moveBack={this.moveBack}
-            />
+            </Suspense> */}
           </div>
         </div>
       </motion.div>
