@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Test deploy link](https://stevenklavins.netlify.app/)
+
 ## About 
 This is the repository of my new website, I recently deployed a website just a month or so ago so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. This is something I really regretted not considering looking back on the choices I made, however I happy to say this new rendition is fully responsive across the board.
 
