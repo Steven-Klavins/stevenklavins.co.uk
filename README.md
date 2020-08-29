@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [Visit the site](https://stevenklavins.netlify.app/)
+
 [Visit the previous unresponsive/unoptimized version](https://steven-klavins.netlify.app/)
 
 ## About 
