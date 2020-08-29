@@ -1,11 +1,11 @@
-import React, { Suspense, lazy, Component } from "react";
+import React, { Component } from "react";
 import "../../Pages/Art/Art.css";
 import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
 import ProjectBox from "../../ProjectBox/ProjectBox";
-import guitar from "../../../obj/guitar.obj";
-import loader from "../../../images/loader.gif";
-const Viewer = lazy(() => import("../../Viewer/Viewer"));
+// import guitar from "../../../obj/guitar.obj";
+// import loader from "../../../images/loader.gif";
+// const Viewer = lazy(() => import("../../Viewer/Viewer"));
 
 const animations = [
   [
