@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "framer-motion": "^2.3.0",
     "install": "^0.13.0",
+    "netlify-cli": "^2.59.1",
     "npm": "^6.14.7",
     "parse-json": "^5.0.1",
     "query-string": "^6.13.1",
@@ -44,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3"
   }
 }
