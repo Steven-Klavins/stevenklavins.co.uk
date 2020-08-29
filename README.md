@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [Visit the site](https://stevenklavins.netlify.app/)
+[Visit the previous unresponsive/unoptimized version](https://steven-klavins.netlify.app/)
 
 ## About 
 It was not long ago I deployed a portfolio website so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. So I returned to the drawing board and I'm now happy to say this new rendition is mobile-friendly and will adapt to any given screen. The second reason for rebuilding my site with all honesty is I rushed the project first time around, I knew I could have done better. This time I took the time to make additional planning and ultimately it paid off. 
