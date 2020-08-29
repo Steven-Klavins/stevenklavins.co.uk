@@ -1,4 +1,4 @@
-import React, { Component, lazy, Suspense } from "react";
+import React, { Component } from "react";
 import "../ProjectBox/ProjectBox.css";
 import ReactPlayer from "react-player";
 
