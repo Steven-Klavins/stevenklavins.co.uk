@@ -26,6 +26,8 @@ There are two key components that suffer from this issue, my notable project car
 
 ## Deployment 
 
+As previously mentioned at present the site is deployed on Netlify and will later be uploaded to a custom domain via TSO host. I will update this Documentation once I have got an SSL (Certificate Secure Sockets Layer) to verify the site secure.
+
 ## Testing 
 
 ## What I learned from the project 
