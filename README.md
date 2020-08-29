@@ -13,7 +13,7 @@ The fourth reason was due to poor optimization, a number of the components were 
 
 ## Technology used 
 This site was built using the following tech stack. 
-#### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, Git's Rest API, and Flickr's developer API. 
+#### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, GitHub's Rest API, and Flickr's developer API. 
 
 
 ## Challenges with optimization 
@@ -23,6 +23,8 @@ A big challenge I found throughout this project was optimizing my components in 
 There are two key components that suffer from this issue, my notable project cards and photo gallery. I suspect the reason these two components suffer from this problem is due to the API calls they make. In both cases, these components need to first retrieve a JSON, then process that information and render it into the component itself.  This is something I'll have to do a little more research on however the fallback serves its purpose for the time being.
 
 ## API usage
+
+The site utilizes two API's the GitHub Rest API and Flickr's developer API. In both use cases, I process the requests with Axios and loop through the returned JSON to abstract the information needed. The GitHub API requires no authentication however the Flikr API does. This is hidden away in a .env file which is called upon when making the request.
 
 ## Deployment 
 
