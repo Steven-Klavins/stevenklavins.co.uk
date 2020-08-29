@@ -34,6 +34,8 @@ As previously mentioned at present the site is deployed on Netlify and will late
 
 ## Further improvements 
 
+The main improvements I'd like to make to this still surround the subject of optimization in order to provide a smoother user experience. This said I feel it is far better than it was, I will continue to make changes as and when I learn more surrounding the subject.
+
 ## Available Scripts
 
 In the project directory, you can run:
