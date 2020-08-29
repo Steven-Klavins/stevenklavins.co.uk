@@ -3,13 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Test deploy link](https://stevenklavins.netlify.app/)
 
 ## About 
-It was not long ago I deployed a portfolio website so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. So I returned to the drawing board and I'm now happy to say this new rendition is mobile-friendly and will adapt to any given screen.
+It was not long ago I deployed a portfolio website so you may ask why a new one already? There are a number of reasons why I felt the need for this, the first being my previous site lacked responsive design. So I returned to the drawing board and I'm now happy to say this new rendition is mobile-friendly and will adapt to any given screen. The second reason for rebuilding my site with all honesty is I rushed the project first time around, I knew I could have done better. This time I took the time to make additional planning and ultimately it paid off. 
 
-The second reason for rebuilding my site with all honesty is I rushed the project first time around, I knew I could have done better. This time I took the time to make additional planning and ultimately it paid off.
-
-The third reason was site was not hosted on a custom domain, whilst this not being crucial it was something that was bugging me. I have now bought a domain and the site is due to be hosted via TSO. At present, it is once more deployed on Netlify but will soon be on a custom domain once I sorted out a new SSL certificate. 
-
-The fourth reason was due to poor optimization, a number of the components were not loading fluently and it was unusable on a mobile network. This was something I wanted to fix asap as it would not leave a good impression opening a website to broken CSS and half loaded images.
+The third reason was site was not hosted on a custom domain, whilst this not being crucial it was something that was bugging me. I have now bought a domain and the site is due to be hosted via TSO. At present, it is once more deployed on Netlify but will soon be on a custom domain once I sorted out a new SSL certificate. The fourth reason was due to poor optimization, a number of the components were not loading fluently and it was unusable on a mobile network. This was something I wanted to fix asap as it would not leave a good impression opening a website to broken CSS and half loaded images.
 
 ## Technology used 
 This site was built using the following tech stack. 
