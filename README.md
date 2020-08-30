@@ -11,7 +11,7 @@ The third reason was site was not hosted on a custom domain, whilst this not bei
 
 ## Technology used 
 This site was built using the following tech stack. 
-#### React, Javascript, Jest, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, GitHub's Rest API, and Flickr's developer API. 
+#### React, Javascript, Jest, Enzyme, Axios, Framer Motion, CSS, HTML, react-3d-viewer, react-image-gallery, GitHub's Rest API, and Flickr's developer API. 
 
 
 ## Challenges with optimization 
@@ -29,6 +29,8 @@ The site utilizes two API's the GitHub Rest API and Flickr's developer API. In b
 As previously mentioned at present the site is deployed on Netlify and will later be uploaded to a custom domain via TSO host. I will update this Documentation once I have got an SSL (Certificate Secure Sockets Layer) to verify the site secure.
 
 ## Testing 
+
+In regards to testing of the site, I used a combination of Jest and Enzyme, the majority of the tests are for static elements.
 
 ## What I learned from the project 
 
