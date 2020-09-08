@@ -36,6 +36,8 @@ In regards to testing of the site, I used a combination of Jest and Enzyme, the 
 
 ## What I learned from the project 
 
+The two main areas I focused on when persuing this project where optimization and responsive design. I learnt how to utilize React's suspend and fallback features in order to split my code. I also learnt some more about the quirks of responsive CSS when making the app suitable for mobile use. 
+
 ## Further improvements 
 
 The main improvements I'd like to make to this still surround the subject of optimization in order to provide a smoother user experience. This said I feel it is far better than it was, I will continue to make changes as I improve my skills as a React Developer.
