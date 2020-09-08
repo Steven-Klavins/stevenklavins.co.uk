@@ -32,7 +32,7 @@ As previously mentioned at present the site is deployed on Netlify and will late
 
 ## Testing 
 
-In regards to testing of the site, I used a combination of Jest and Enzyme, the majority of the tests are for static elements.
+In regards to testing of the site, I used a combination of Jest and Enzyme, the majority of the tests are for static elements. Further testing is due to be implemented to mock the JSON responses from the API calls.
 
 ## What I learned from the project 
 
