@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Visit the site](https://stevenklavins.netlify.app/)
+[Visit the site](http://www.stevenklavins.co.uk/) 
+
+[Visit the test deploy](https://stevenklavins.netlify.app/)
 
 [Visit the previous unresponsive/unoptimized version](https://steven-klavins.netlify.app/)
 
@@ -31,6 +33,10 @@ The site utilizes two API's the GitHub Rest API and Flickr's developer API. In b
 ## Deployment 
 
 As previously mentioned at present the site is deployed on Netlify and will later be uploaded to a custom domain via TSO host. I will update this Documentation once I have got an SSL (Certificate Secure Sockets Layer) to verify the site secure.
+
+**Update**
+
+[Visit the site](http://www.stevenklavins.co.uk/) (SSL still needed)
 
 ## Testing 
 
