@@ -50,6 +50,10 @@ The two main areas I focused on when persuing this project where optimization an
 
 The main improvements I'd like to make to this still surround the subject of optimization in order to provide a smoother user experience. This said I feel it is far better than it was, I will continue to make changes as I improve my skills as a React Developer.
 
+## Current issues 
+
+At present, the site has a minor issue where refreshing outside of the route directory can cause the page not to load. I have found a solution to this and will be implementing it in the near future.
+
 ## Available Scripts
 
 In the project directory, you can run:
