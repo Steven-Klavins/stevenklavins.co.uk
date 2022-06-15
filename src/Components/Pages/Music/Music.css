@@ -68,6 +68,7 @@
 .topMargin {
   margin-bottom: 120px;
   padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 500px) {
